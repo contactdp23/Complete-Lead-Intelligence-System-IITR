@@ -1,0 +1,16 @@
+
+# Python virtual environment
+.venv/
+
+# Private API credentials
+.env
+
+# Python temporary files
+__pycache__/
+*.pyc
+
+# Pytest temporary files
+.pytest_cache/
+
+# Generated reports
+output/
