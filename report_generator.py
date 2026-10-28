@@ -3,7 +3,12 @@ from pathlib import Path
 from collections import Counter
 
 
-def export_json_report(ranked_df, output_path):
+def export_json_report(
+    ranked_df,
+    output_path,
+    outreach_results=None,
+    failed_batches=None
+):
     """Export qualification summary and ranked leads to JSON."""
 
     output_file = Path(output_path)
@@ -13,10 +18,18 @@ def export_json_report(ranked_df, output_path):
         exist_ok=True
     )
 
+    
     report = {
         "summary": generate_summary(ranked_df),
-        "leads": ranked_df.to_dict(orient="records")
+        "leads": ranked_df.to_dict(orient="records"),
+        "outreach_results": (
+            outreach_results if outreach_results is not None else []
+        ),
+        "failed_batches": (
+            failed_batches if failed_batches is not None else []
+        )
     }
+
 
     with output_file.open(
         "w",
@@ -51,12 +64,35 @@ def generate_summary(ranked_df):
         else 0.0
     )
 
+
+
     rejection_reasons = Counter()
 
     for _, lead in ranked_df.iterrows():
-        if lead["decision"] == "REJECTED":
-            for reason in lead["reasoning"]:
-                rejection_reasons[str(reason)] += 1
+        if lead["decision"] != "REJECTED":
+            continue
+
+        for reason in lead["reasoning"]:
+            reason_text = str(reason).strip()
+            reason_lower = reason_text.lower()
+
+            if "outside target" in reason_lower:
+                rejection_reasons["Company size outside target"] += 1
+
+            elif "outside preferred" in reason_lower:
+                rejection_reasons["Industry outside preferred segments"] += 1
+
+            elif "early engagement" in reason_lower:
+                rejection_reasons["Low engagement signal"] += 1
+
+            elif "interaction" in reason_lower and "180 days" in reason_lower:
+                rejection_reasons["Older interaction"] += 1
+
+    # Explain rejection when no specific reason was identified.
+    if rejected > 0 and not rejection_reasons:
+        rejection_reasons["Score below qualification threshold"] = rejected
+
+
 
     return {
         "total_leads": total,

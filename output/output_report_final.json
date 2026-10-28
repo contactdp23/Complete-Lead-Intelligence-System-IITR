@@ -1,0 +1,3280 @@
+{
+    "summary": {
+        "total_leads": 100,
+        "qualified": 80,
+        "review": 19,
+        "rejected": 1,
+        "qualified_percentage": 80.0,
+        "common_rejection_reasons": {
+            "Company size outside target": 1,
+            "Industry outside preferred segments": 1,
+            "Low engagement signal": 1,
+            "Older interaction": 1
+        }
+    },
+    "leads": [
+        {
+            "name": "Derek Johnson",
+            "company": "Cloud Infrastructure",
+            "company_size": 200,
+            "industry": "SaaS",
+            "source": "Inbound demo request",
+            "last_interaction_date": "2024-01-19",
+            "score": 10.0,
+            "decision": "QUALIFIED",
+            "reasoning": [
+                "Company size matches target ICP (+3)",
+                "Core target industry (+2.5)",
+                "Strong acquisition signal (+2)",
+                "Recent interaction (+1.5)",
+                "Complete lead record (+1)"
+            ],
+            "review_flags": [],
+            "priority_rank": 1
+        },
+        {
+            "name": "Alice Chen",
+            "company": "CloudScale AI",
+            "company_size": 50,
+            "industry": "SaaS",
+            "source": "Inbound demo request",
+            "last_interaction_date": "2024-01-15",
+            "score": 10.0,
+            "decision": "QUALIFIED",
+            "reasoning": [
+                "Company size matches target ICP (+3)",
+                "Core target industry (+2.5)",
+                "Strong acquisition signal (+2)",
+                "Recent interaction (+1.5)",
+                "Complete lead record (+1)"
+            ],
+            "review_flags": [],
+            "priority_rank": 2
+        },
+        {
+            "name": "Leon Chen",
+            "company": "FinTech Startup",
+            "company_size": 25,
+            "industry": "FinTech",
+            "source": "Referral",
+            "last_interaction_date": "2024-01-17",
+            "score": 10.0,
+            "decision": "QUALIFIED",
+            "reasoning": [
+                "Company size matches target ICP (+3)",
+                "Core target industry (+2.5)",
+                "Strong acquisition signal (+2)",
+                "Recent interaction (+1.5)",
+                "Complete lead record (+1)"
+            ],
+            "review_flags": [],
+            "priority_rank": 3
+        },
+        {
+            "name": "Jerome Long",
+            "company": "Logistics Optimization",
+            "company_size": 85,
+            "industry": "Software",
+            "source": "Inbound demo request",
+            "last_interaction_date": "2024-01-11",
+            "score": 10.0,
+            "decision": "QUALIFIED",
+            "reasoning": [
+                "Company size matches target ICP (+3)",
+                "Core target industry (+2.5)",
+                "Strong acquisition signal (+2)",
+                "Recent interaction (+1.5)",
+                "Complete lead record (+1)"
+            ],
+            "review_flags": [],
+            "priority_rank": 4
+        },
+        {
+            "name": "Dominic Wheeler",
+            "company": "Payment Processing",
+            "company_size": 500,
+            "industry": "FinTech",
+            "source": "Inbound demo request",
+            "last_interaction_date": "2024-01-17",
+            "score": 10.0,
+            "decision": "QUALIFIED",
+            "reasoning": [
+                "Company size matches target ICP (+3)",
+                "Core target industry (+2.5)",
+                "Strong acquisition signal (+2)",
+                "Recent interaction (+1.5)",
+                "Complete lead record (+1)"
+            ],
+            "review_flags": [],
+            "priority_rank": 5
+        },
+        {
+            "name": "Chloe Mitchell",
+            "company": "Supply Chain Analytics",
+            "company_size": 60,
+            "industry": "Software",
+            "source": "Referral",
+            "last_interaction_date": "2024-01-18",
+            "score": 10.0,
+            "decision": "QUALIFIED",
+            "reasoning": [
+                "Company size matches target ICP (+3)",
+                "Core target industry (+2.5)",
+                "Strong acquisition signal (+2)",
+                "Recent interaction (+1.5)",
+                "Complete lead record (+1)"
+            ],
+            "review_flags": [],
+            "priority_rank": 6
+        },
+        {
+            "name": "Franklin Hayes",
+            "company": "Accounting Software",
+            "company_size": 220,
+            "industry": "Software",
+            "source": "Sales call",
+            "last_interaction_date": "2024-01-15",
+            "score": 9.5,
+            "decision": "QUALIFIED",
+            "reasoning": [
+                "Company size matches target ICP (+3)",
+                "Core target industry (+2.5)",
+                "Moderate engagement signal (+1.5)",
+                "Recent interaction (+1.5)",
+                "Complete lead record (+1)"
+            ],
+            "review_flags": [],
+            "priority_rank": 7
+        },
+        {
+            "name": "Yolanda Martinez",
+            "company": "Customer Support Platform",
+            "company_size": 110,
+            "industry": "SaaS",
+            "source": "Webinar attendee",
+            "last_interaction_date": "2023-12-27",
+            "score": 9.5,
+            "decision": "QUALIFIED",
+            "reasoning": [
+                "Company size matches target ICP (+3)",
+                "Core target industry (+2.5)",
+                "Moderate engagement signal (+1.5)",
+                "Recent interaction (+1.5)",
+                "Complete lead record (+1)"
+            ],
+            "review_flags": [],
+            "priority_rank": 8
+        },
+        {
+            "name": "Gina Reeves",
+            "company": "E-commerce Platform",
+            "company_size": 140,
+            "industry": "SaaS",
+            "source": "Webinar attendee",
+            "last_interaction_date": "2024-01-14",
+            "score": 9.5,
+            "decision": "QUALIFIED",
+            "reasoning": [
+                "Company size matches target ICP (+3)",
+                "Core target industry (+2.5)",
+                "Moderate engagement signal (+1.5)",
+                "Recent interaction (+1.5)",
+                "Complete lead record (+1)"
+            ],
+            "review_flags": [],
+            "priority_rank": 9
+        },
+        {
+            "name": "Quinton Price",
+            "company": "Database Software",
+            "company_size": 250,
+            "industry": "Software",
+            "source": "LinkedIn outreach",
+            "last_interaction_date": "2024-01-04",
+            "score": 9.0,
+            "decision": "QUALIFIED",
+            "reasoning": [
+                "Company size matches target ICP (+3)",
+                "Core target industry (+2.5)",
+                "Early engagement signal (+1)",
+                "Recent interaction (+1.5)",
+                "Complete lead record (+1)"
+            ],
+            "review_flags": [],
+            "priority_rank": 10
+        },
+        {
+            "name": "Audrey Powell",
+            "company": "Dental Practice Management",
+            "company_size": 150,
+            "industry": "Healthcare",
+            "source": "Referral",
+            "last_interaction_date": "2023-12-25",
+            "score": 9.0,
+            "decision": "QUALIFIED",
+            "reasoning": [
+                "Company size matches target ICP (+3)",
+                "Secondary target industry (+1.5)",
+                "Strong acquisition signal (+2)",
+                "Recent interaction (+1.5)",
+                "Complete lead record (+1)"
+            ],
+            "review_flags": [],
+            "priority_rank": 11
+        },
+        {
+            "name": "Kevin Grant",
+            "company": "Knowledge Management",
+            "company_size": 125,
+            "industry": "Software",
+            "source": "Webinar attendee",
+            "last_interaction_date": "2023-12-15",
+            "score": 9.0,
+            "decision": "QUALIFIED",
+            "reasoning": [
+                "Company size matches target ICP (+3)",
+                "Core target industry (+2.5)",
+                "Moderate engagement signal (+1.5)",
+                "Interaction within 90 days (+1)",
+                "Complete lead record (+1)"
+            ],
+            "review_flags": [],
+            "priority_rank": 12
+        },
+        {
+            "name": "Ethan Smith",
+            "company": "Mobile Development",
+            "company_size": 40,
+            "industry": "Software",
+            "source": "LinkedIn outreach",
+            "last_interaction_date": "2024-01-17",
+            "score": 9.0,
+            "decision": "QUALIFIED",
+            "reasoning": [
+                "Company size matches target ICP (+3)",
+                "Core target industry (+2.5)",
+                "Early engagement signal (+1)",
+                "Recent interaction (+1.5)",
+                "Complete lead record (+1)"
+            ],
+            "review_flags": [],
+            "priority_rank": 13
+        },
+        {
+            "name": "William Knight",
+            "company": "Pharmaceutical Distribution",
+            "company_size": 400,
+            "industry": "Healthcare",
+            "source": "Referral",
+            "last_interaction_date": "2024-01-04",
+            "score": 9.0,
+            "decision": "QUALIFIED",
+            "reasoning": [
+                "Company size matches target ICP (+3)",
+                "Secondary target industry (+1.5)",
+                "Strong acquisition signal (+2)",
+                "Recent interaction (+1.5)",
+                "Complete lead record (+1)"
+            ],
+            "review_flags": [],
+            "priority_rank": 14
+        },
+        {
+            "name": "Oscar Rivera",
+            "company": "Warehouse Automation",
+            "company_size": 300,
+            "industry": "Logistics",
+            "source": "Referral",
+            "last_interaction_date": "2024-01-06",
+            "score": 9.0,
+            "decision": "QUALIFIED",
+            "reasoning": [
+                "Company size matches target ICP (+3)",
+                "Secondary target industry (+1.5)",
+                "Strong acquisition signal (+2)",
+                "Recent interaction (+1.5)",
+                "Complete lead record (+1)"
+            ],
+            "review_flags": [],
+            "priority_rank": 15
+        },
+        {
+            "name": "Sophia Moretti",
+            "company": "Wine Distribution",
+            "company_size": 95,
+            "industry": "Retail",
+            "source": "Inbound demo request",
+            "last_interaction_date": "2024-01-11",
+            "score": 9.0,
+            "decision": "QUALIFIED",
+            "reasoning": [
+                "Company size matches target ICP (+3)",
+                "Secondary target industry (+1.5)",
+                "Strong acquisition signal (+2)",
+                "Recent interaction (+1.5)",
+                "Complete lead record (+1)"
+            ],
+            "review_flags": [],
+            "priority_rank": 16
+        },
+        {
+            "name": "Silas Brown",
+            "company": "Financial Advisory",
+            "company_size": 140,
+            "industry": "Finance",
+            "source": "Webinar attendee",
+            "last_interaction_date": "2024-01-02",
+            "score": 8.5,
+            "decision": "QUALIFIED",
+            "reasoning": [
+                "Company size matches target ICP (+3)",
+                "Secondary target industry (+1.5)",
+                "Moderate engagement signal (+1.5)",
+                "Recent interaction (+1.5)",
+                "Complete lead record (+1)"
+            ],
+            "review_flags": [],
+            "priority_rank": 17
+        },
+        {
+            "name": "Sophie Lawrence",
+            "company": "Laboratory Information",
+            "company_size": 170,
+            "industry": "Healthcare",
+            "source": "Referral",
+            "last_interaction_date": "2023-12-07",
+            "score": 8.5,
+            "decision": "QUALIFIED",
+            "reasoning": [
+                "Company size matches target ICP (+3)",
+                "Secondary target industry (+1.5)",
+                "Strong acquisition signal (+2)",
+                "Interaction within 90 days (+1)",
+                "Complete lead record (+1)"
+            ],
+            "review_flags": [],
+            "priority_rank": 18
+        },
+        {
+            "name": "Lauren Blake",
+            "company": "Medical Devices",
+            "company_size": 450,
+            "industry": "Healthcare",
+            "source": "Sales call",
+            "last_interaction_date": "2024-01-09",
+            "score": 8.5,
+            "decision": "QUALIFIED",
+            "reasoning": [
+                "Company size matches target ICP (+3)",
+                "Secondary target industry (+1.5)",
+                "Moderate engagement signal (+1.5)",
+                "Recent interaction (+1.5)",
+                "Complete lead record (+1)"
+            ],
+            "review_flags": [],
+            "priority_rank": 19
+        },
+        {
+            "name": "Harper Knight",
+            "company": "Retail Inventory",
+            "company_size": 140,
+            "industry": "Retail",
+            "source": "Inbound demo request",
+            "last_interaction_date": "2023-12-18",
+            "score": 8.5,
+            "decision": "QUALIFIED",
+            "reasoning": [
+                "Company size matches target ICP (+3)",
+                "Secondary target industry (+1.5)",
+                "Strong acquisition signal (+2)",
+                "Interaction within 90 days (+1)",
+                "Complete lead record (+1)"
+            ],
+            "review_flags": [],
+            "priority_rank": 20
+        },
+        {
+            "name": "Emma Thompson",
+            "company": "RetailWorks Solutions",
+            "company_size": 200,
+            "industry": "Retail",
+            "source": "Inbound demo request",
+            "last_interaction_date": "2023-11-10",
+            "score": 8.5,
+            "decision": "QUALIFIED",
+            "reasoning": [
+                "Company size matches target ICP (+3)",
+                "Secondary target industry (+1.5)",
+                "Strong acquisition signal (+2)",
+                "Interaction within 90 days (+1)",
+                "Complete lead record (+1)"
+            ],
+            "review_flags": [],
+            "priority_rank": 21
+        },
+        {
+            "name": "Ruby Chen",
+            "company": "Sustainable Fashion",
+            "company_size": 85,
+            "industry": "Retail",
+            "source": "Sales call",
+            "last_interaction_date": "2024-01-03",
+            "score": 8.5,
+            "decision": "QUALIFIED",
+            "reasoning": [
+                "Company size matches target ICP (+3)",
+                "Secondary target industry (+1.5)",
+                "Moderate engagement signal (+1.5)",
+                "Recent interaction (+1.5)",
+                "Complete lead record (+1)"
+            ],
+            "review_flags": [],
+            "priority_rank": 22
+        },
+        {
+            "name": "Liam O'Connor",
+            "company": "Venture Capital Fund",
+            "company_size": 40,
+            "industry": "Finance",
+            "source": "Sales call",
+            "last_interaction_date": "2024-01-10",
+            "score": 8.5,
+            "decision": "QUALIFIED",
+            "reasoning": [
+                "Company size matches target ICP (+3)",
+                "Secondary target industry (+1.5)",
+                "Moderate engagement signal (+1.5)",
+                "Recent interaction (+1.5)",
+                "Complete lead record (+1)"
+            ],
+            "review_flags": [],
+            "priority_rank": 23
+        },
+        {
+            "name": "Marcus Hunt",
+            "company": "Venture Studio",
+            "company_size": 35,
+            "industry": "Finance",
+            "source": "Webinar attendee",
+            "last_interaction_date": "2024-01-08",
+            "score": 8.5,
+            "decision": "QUALIFIED",
+            "reasoning": [
+                "Company size matches target ICP (+3)",
+                "Secondary target industry (+1.5)",
+                "Moderate engagement signal (+1.5)",
+                "Recent interaction (+1.5)",
+                "Complete lead record (+1)"
+            ],
+            "review_flags": [],
+            "priority_rank": 24
+        },
+        {
+            "name": "Mona Patel",
+            "company": "Blockchain Startup",
+            "company_size": 22,
+            "industry": "Cryptocurrency",
+            "source": "Referral",
+            "last_interaction_date": "2024-01-15",
+            "score": 8.0,
+            "decision": "QUALIFIED",
+            "reasoning": [
+                "Company size matches target ICP (+3)",
+                "Industry outside preferred segments (+0.5)",
+                "Strong acquisition signal (+2)",
+                "Recent interaction (+1.5)",
+                "Complete lead record (+1)"
+            ],
+            "review_flags": [],
+            "priority_rank": 25
+        },
+        {
+            "name": "Bryson Hart",
+            "company": "Climate Analytics",
+            "company_size": 70,
+            "industry": "Climate Tech",
+            "source": "Inbound demo request",
+            "last_interaction_date": "2023-12-24",
+            "score": 8.0,
+            "decision": "QUALIFIED",
+            "reasoning": [
+                "Company size matches target ICP (+3)",
+                "Industry outside preferred segments (+0.5)",
+                "Strong acquisition signal (+2)",
+                "Recent interaction (+1.5)",
+                "Complete lead record (+1)"
+            ],
+            "review_flags": [],
+            "priority_rank": 26
+        },
+        {
+            "name": "Bradley Foster",
+            "company": "Cloud Storage",
+            "company_size": 800,
+            "industry": "SaaS",
+            "source": "Content download",
+            "last_interaction_date": "2024-01-19",
+            "score": 8.0,
+            "decision": "QUALIFIED",
+            "reasoning": [
+                "Company is above preferred size (+2)",
+                "Core target industry (+2.5)",
+                "Early engagement signal (+1)",
+                "Recent interaction (+1.5)",
+                "Complete lead record (+1)"
+            ],
+            "review_flags": [],
+            "priority_rank": 27
+        },
+        {
+            "name": "Veronica Adams",
+            "company": "Commercial Cleaning",
+            "company_size": 180,
+            "industry": "Business Services",
+            "source": "Inbound demo request",
+            "last_interaction_date": "2023-12-30",
+            "score": 8.0,
+            "decision": "QUALIFIED",
+            "reasoning": [
+                "Company size matches target ICP (+3)",
+                "Industry outside preferred segments (+0.5)",
+                "Strong acquisition signal (+2)",
+                "Recent interaction (+1.5)",
+                "Complete lead record (+1)"
+            ],
+            "review_flags": [],
+            "priority_rank": 28
+        },
+        {
+            "name": "Samuel Lee",
+            "company": "Cybersecurity Startup",
+            "company_size": 60,
+            "industry": "Cybersecurity",
+            "source": "Referral",
+            "last_interaction_date": "2024-01-09",
+            "score": 8.0,
+            "decision": "QUALIFIED",
+            "reasoning": [
+                "Company size matches target ICP (+3)",
+                "Industry outside preferred segments (+0.5)",
+                "Strong acquisition signal (+2)",
+                "Recent interaction (+1.5)",
+                "Complete lead record (+1)"
+            ],
+            "review_flags": [],
+            "priority_rank": 29
+        },
+        {
+            "name": "Jack White",
+            "company": "Digital Marketing Agency",
+            "company_size": 120,
+            "industry": "Marketing",
+            "source": "Inbound demo request",
+            "last_interaction_date": "2024-01-19",
+            "score": 8.0,
+            "decision": "QUALIFIED",
+            "reasoning": [
+                "Company size matches target ICP (+3)",
+                "Industry outside preferred segments (+0.5)",
+                "Strong acquisition signal (+2)",
+                "Recent interaction (+1.5)",
+                "Complete lead record (+1)"
+            ],
+            "review_flags": [],
+            "priority_rank": 30
+        },
+        {
+            "name": "Henry Park",
+            "company": "EdTech Innovations",
+            "company_size": 75,
+            "industry": "EdTech",
+            "source": "Content download",
+            "last_interaction_date": "2024-01-14",
+            "score": 8.0,
+            "decision": "QUALIFIED",
+            "reasoning": [
+                "Company size matches target ICP (+3)",
+                "Secondary target industry (+1.5)",
+                "Early engagement signal (+1)",
+                "Recent interaction (+1.5)",
+                "Complete lead record (+1)"
+            ],
+            "review_flags": [],
+            "priority_rank": 31
+        },
+        {
+            "name": "Wendy Zhang",
+            "company": "Fashion Brand",
+            "company_size": 400,
+            "industry": "Retail",
+            "source": "Content download",
+            "last_interaction_date": "2024-01-05",
+            "score": 8.0,
+            "decision": "QUALIFIED",
+            "reasoning": [
+                "Company size matches target ICP (+3)",
+                "Secondary target industry (+1.5)",
+                "Early engagement signal (+1)",
+                "Recent interaction (+1.5)",
+                "Complete lead record (+1)"
+            ],
+            "review_flags": [],
+            "priority_rank": 32
+        },
+        {
+            "name": "Natalie Stone",
+            "company": "Fashion E-commerce",
+            "company_size": 110,
+            "industry": "Retail",
+            "source": "Content download",
+            "last_interaction_date": "2024-01-07",
+            "score": 8.0,
+            "decision": "QUALIFIED",
+            "reasoning": [
+                "Company size matches target ICP (+3)",
+                "Secondary target industry (+1.5)",
+                "Early engagement signal (+1)",
+                "Recent interaction (+1.5)",
+                "Complete lead record (+1)"
+            ],
+            "review_flags": [],
+            "priority_rank": 33
+        },
+        {
+            "name": "Cecilia Santos",
+            "company": "Freight Forwarding",
+            "company_size": 400,
+            "industry": "Logistics",
+            "source": "LinkedIn outreach",
+            "last_interaction_date": "2023-12-23",
+            "score": 8.0,
+            "decision": "QUALIFIED",
+            "reasoning": [
+                "Company size matches target ICP (+3)",
+                "Secondary target industry (+1.5)",
+                "Early engagement signal (+1)",
+                "Recent interaction (+1.5)",
+                "Complete lead record (+1)"
+            ],
+            "review_flags": [],
+            "priority_rank": 34
+        },
+        {
+            "name": "Isabella Romano",
+            "company": "Luxury Hotels",
+            "company_size": 350,
+            "industry": "Hospitality",
+            "source": "Referral",
+            "last_interaction_date": "2024-01-16",
+            "score": 8.0,
+            "decision": "QUALIFIED",
+            "reasoning": [
+                "Company size matches target ICP (+3)",
+                "Industry outside preferred segments (+0.5)",
+                "Strong acquisition signal (+2)",
+                "Recent interaction (+1.5)",
+                "Complete lead record (+1)"
+            ],
+            "review_flags": [],
+            "priority_rank": 35
+        },
+        {
+            "name": "Penny Walsh",
+            "company": "Mental Health Platform",
+            "company_size": 75,
+            "industry": "HealthTech",
+            "source": "Inbound demo request",
+            "last_interaction_date": "2024-01-05",
+            "score": 8.0,
+            "decision": "QUALIFIED",
+            "reasoning": [
+                "Company size matches target ICP (+3)",
+                "Industry outside preferred segments (+0.5)",
+                "Strong acquisition signal (+2)",
+                "Recent interaction (+1.5)",
+                "Complete lead record (+1)"
+            ],
+            "review_flags": [],
+            "priority_rank": 36
+        },
+        {
+            "name": "Zachary Pierce",
+            "company": "Office Furniture",
+            "company_size": 175,
+            "industry": "Retail",
+            "source": "Webinar attendee",
+            "last_interaction_date": "2023-12-18",
+            "score": 8.0,
+            "decision": "QUALIFIED",
+            "reasoning": [
+                "Company size matches target ICP (+3)",
+                "Secondary target industry (+1.5)",
+                "Moderate engagement signal (+1.5)",
+                "Interaction within 90 days (+1)",
+                "Complete lead record (+1)"
+            ],
+            "review_flags": [],
+            "priority_rank": 37
+        },
+        {
+            "name": "James Wilson",
+            "company": "Property Management",
+            "company_size": 180,
+            "industry": "Real Estate",
+            "source": "Inbound demo request",
+            "last_interaction_date": "2024-01-18",
+            "score": 8.0,
+            "decision": "QUALIFIED",
+            "reasoning": [
+                "Company size matches target ICP (+3)",
+                "Industry outside preferred segments (+0.5)",
+                "Strong acquisition signal (+2)",
+                "Recent interaction (+1.5)",
+                "Complete lead record (+1)"
+            ],
+            "review_flags": [],
+            "priority_rank": 38
+        },
+        {
+            "name": "Steven Chen",
+            "company": "Robotics Company",
+            "company_size": 75,
+            "industry": "Manufacturing",
+            "source": "Referral",
+            "last_interaction_date": "2024-01-07",
+            "score": 8.0,
+            "decision": "QUALIFIED",
+            "reasoning": [
+                "Company size matches target ICP (+3)",
+                "Industry outside preferred segments (+0.5)",
+                "Strong acquisition signal (+2)",
+                "Recent interaction (+1.5)",
+                "Complete lead record (+1)"
+            ],
+            "review_flags": [],
+            "priority_rank": 39
+        },
+        {
+            "name": "Yuki Tanaka",
+            "company": "Travel Technology",
+            "company_size": 55,
+            "industry": "Travel",
+            "source": "Referral",
+            "last_interaction_date": "2024-01-04",
+            "score": 8.0,
+            "decision": "QUALIFIED",
+            "reasoning": [
+                "Company size matches target ICP (+3)",
+                "Industry outside preferred segments (+0.5)",
+                "Strong acquisition signal (+2)",
+                "Recent interaction (+1.5)",
+                "Complete lead record (+1)"
+            ],
+            "review_flags": [],
+            "priority_rank": 40
+        },
+        {
+            "name": "Ezra Fox",
+            "company": "Veterinary Practice",
+            "company_size": 65,
+            "industry": "Healthcare",
+            "source": "Webinar attendee",
+            "last_interaction_date": "2023-12-21",
+            "score": 8.0,
+            "decision": "QUALIFIED",
+            "reasoning": [
+                "Company size matches target ICP (+3)",
+                "Secondary target industry (+1.5)",
+                "Moderate engagement signal (+1.5)",
+                "Interaction within 90 days (+1)",
+                "Complete lead record (+1)"
+            ],
+            "review_flags": [],
+            "priority_rank": 41
+        },
+        {
+            "name": "Xander Brooks",
+            "company": "Virtual Reality Studios",
+            "company_size": 45,
+            "industry": "Entertainment",
+            "source": "Inbound demo request",
+            "last_interaction_date": "2024-01-03",
+            "score": 8.0,
+            "decision": "QUALIFIED",
+            "reasoning": [
+                "Company size matches target ICP (+3)",
+                "Industry outside preferred segments (+0.5)",
+                "Strong acquisition signal (+2)",
+                "Recent interaction (+1.5)",
+                "Complete lead record (+1)"
+            ],
+            "review_flags": [],
+            "priority_rank": 42
+        },
+        {
+            "name": "Gabriella Torres",
+            "company": "Beauty & Cosmetics",
+            "company_size": 120,
+            "industry": "Consumer",
+            "source": "Webinar attendee",
+            "last_interaction_date": "2024-01-14",
+            "score": 7.5,
+            "decision": "QUALIFIED",
+            "reasoning": [
+                "Company size matches target ICP (+3)",
+                "Industry outside preferred segments (+0.5)",
+                "Moderate engagement signal (+1.5)",
+                "Recent interaction (+1.5)",
+                "Complete lead record (+1)"
+            ],
+            "review_flags": [],
+            "priority_rank": 43
+        },
+        {
+            "name": "Quinn Matthews",
+            "company": "Consulting Firm",
+            "company_size": 180,
+            "industry": "Consulting",
+            "source": "Webinar attendee",
+            "last_interaction_date": "2024-01-11",
+            "score": 7.5,
+            "decision": "QUALIFIED",
+            "reasoning": [
+                "Company size matches target ICP (+3)",
+                "Industry outside preferred segments (+0.5)",
+                "Moderate engagement signal (+1.5)",
+                "Recent interaction (+1.5)",
+                "Complete lead record (+1)"
+            ],
+            "review_flags": [],
+            "priority_rank": 44
+        },
+        {
+            "name": "Iris Monroe",
+            "company": "Corporate Training",
+            "company_size": 110,
+            "industry": "EdTech",
+            "source": "LinkedIn outreach",
+            "last_interaction_date": "2023-12-17",
+            "score": 7.5,
+            "decision": "QUALIFIED",
+            "reasoning": [
+                "Company size matches target ICP (+3)",
+                "Secondary target industry (+1.5)",
+                "Early engagement signal (+1)",
+                "Interaction within 90 days (+1)",
+                "Complete lead record (+1)"
+            ],
+            "review_flags": [],
+            "priority_rank": 45
+        },
+        {
+            "name": "Marcus Stewart",
+            "company": "Cyber Insurance",
+            "company_size": 220,
+            "industry": "Insurance",
+            "source": "Referral",
+            "last_interaction_date": "2023-12-13",
+            "score": 7.5,
+            "decision": "QUALIFIED",
+            "reasoning": [
+                "Company size matches target ICP (+3)",
+                "Industry outside preferred segments (+0.5)",
+                "Strong acquisition signal (+2)",
+                "Interaction within 90 days (+1)",
+                "Complete lead record (+1)"
+            ],
+            "review_flags": [],
+            "priority_rank": 46
+        },
+        {
+            "name": "Amelia Davis",
+            "company": "Cybersecurity Consulting",
+            "company_size": 95,
+            "industry": "Cybersecurity",
+            "source": "Sales call",
+            "last_interaction_date": "2024-01-20",
+            "score": 7.5,
+            "decision": "QUALIFIED",
+            "reasoning": [
+                "Company size matches target ICP (+3)",
+                "Industry outside preferred segments (+0.5)",
+                "Moderate engagement signal (+1.5)",
+                "Recent interaction (+1.5)",
+                "Complete lead record (+1)"
+            ],
+            "review_flags": [],
+            "priority_rank": 47
+        },
+        {
+            "name": "Xavier Lopez",
+            "company": "Data Analytics Firm",
+            "company_size": 110,
+            "industry": "Analytics",
+            "source": "Webinar attendee",
+            "last_interaction_date": "2023-12-22",
+            "score": 7.5,
+            "decision": "QUALIFIED",
+            "reasoning": [
+                "Company size matches target ICP (+3)",
+                "Industry outside preferred segments (+0.5)",
+                "Moderate engagement signal (+1.5)",
+                "Recent interaction (+1.5)",
+                "Complete lead record (+1)"
+            ],
+            "review_flags": [],
+            "priority_rank": 48
+        },
+        {
+            "name": "Nathan Brooks",
+            "company": "Enterprise Solutions Corp",
+            "company_size": 3500,
+            "industry": "Software",
+            "source": "Inbound demo request",
+            "last_interaction_date": "2024-01-13",
+            "score": 7.5,
+            "decision": "QUALIFIED",
+            "reasoning": [
+                "Company size is outside target (+0.5)",
+                "Core target industry (+2.5)",
+                "Strong acquisition signal (+2)",
+                "Recent interaction (+1.5)",
+                "Complete lead record (+1)"
+            ],
+            "review_flags": [],
+            "priority_rank": 49
+        },
+        {
+            "name": "Ximena Flores",
+            "company": "Gaming Studio",
+            "company_size": 95,
+            "industry": "Entertainment",
+            "source": "Sales call",
+            "last_interaction_date": "2023-12-28",
+            "score": 7.5,
+            "decision": "QUALIFIED",
+            "reasoning": [
+                "Company size matches target ICP (+3)",
+                "Industry outside preferred segments (+0.5)",
+                "Moderate engagement signal (+1.5)",
+                "Recent interaction (+1.5)",
+                "Complete lead record (+1)"
+            ],
+            "review_flags": [],
+            "priority_rank": 50
+        },
+        {
+            "name": "Frank Liu",
+            "company": "Healthcare Systems Ltd",
+            "company_size": 1200,
+            "industry": "Healthcare",
+            "source": "Sales call",
+            "last_interaction_date": "2024-01-12",
+            "score": 7.5,
+            "decision": "QUALIFIED",
+            "reasoning": [
+                "Company is above preferred size (+2)",
+                "Secondary target industry (+1.5)",
+                "Moderate engagement signal (+1.5)",
+                "Recent interaction (+1.5)",
+                "Complete lead record (+1)"
+            ],
+            "review_flags": [],
+            "priority_rank": 51
+        },
+        {
+            "name": "Natasha Volkov",
+            "company": "Import Export Trading",
+            "company_size": 350,
+            "industry": "Trade",
+            "source": "Inbound demo request",
+            "last_interaction_date": "2023-12-12",
+            "score": 7.5,
+            "decision": "QUALIFIED",
+            "reasoning": [
+                "Company size matches target ICP (+3)",
+                "Industry outside preferred segments (+0.5)",
+                "Strong acquisition signal (+2)",
+                "Interaction within 90 days (+1)",
+                "Complete lead record (+1)"
+            ],
+            "review_flags": [],
+            "priority_rank": 52
+        },
+        {
+            "name": "Raymond Grant",
+            "company": "Logistics Tracking",
+            "company_size": 300,
+            "industry": "Logistics",
+            "source": "Content download",
+            "last_interaction_date": "2023-12-08",
+            "score": 7.5,
+            "decision": "QUALIFIED",
+            "reasoning": [
+                "Company size matches target ICP (+3)",
+                "Secondary target industry (+1.5)",
+                "Early engagement signal (+1)",
+                "Interaction within 90 days (+1)",
+                "Complete lead record (+1)"
+            ],
+            "review_flags": [],
+            "priority_rank": 53
+        },
+        {
+            "name": "Gemma Hart",
+            "company": "Public Relations Firm",
+            "company_size": 75,
+            "industry": "Marketing",
+            "source": "Referral",
+            "last_interaction_date": "2023-12-19",
+            "score": 7.5,
+            "decision": "QUALIFIED",
+            "reasoning": [
+                "Company size matches target ICP (+3)",
+                "Industry outside preferred segments (+0.5)",
+                "Strong acquisition signal (+2)",
+                "Interaction within 90 days (+1)",
+                "Complete lead record (+1)"
+            ],
+            "review_flags": [],
+            "priority_rank": 54
+        },
+        {
+            "name": "Victor Moore",
+            "company": "Real Estate Platform",
+            "company_size": 250,
+            "industry": "Real Estate",
+            "source": "Sales call",
+            "last_interaction_date": "2024-01-06",
+            "score": 7.5,
+            "decision": "QUALIFIED",
+            "reasoning": [
+                "Company size matches target ICP (+3)",
+                "Industry outside preferred segments (+0.5)",
+                "Moderate engagement signal (+1.5)",
+                "Recent interaction (+1.5)",
+                "Complete lead record (+1)"
+            ],
+            "review_flags": [],
+            "priority_rank": 55
+        },
+        {
+            "name": "David Moore",
+            "company": "StartupXYZ",
+            "company_size": 3,
+            "industry": "SaaS",
+            "source": "Referral",
+            "last_interaction_date": "2024-01-18",
+            "score": 7.5,
+            "decision": "QUALIFIED",
+            "reasoning": [
+                "Company size is outside target (+0.5)",
+                "Core target industry (+2.5)",
+                "Strong acquisition signal (+2)",
+                "Recent interaction (+1.5)",
+                "Complete lead record (+1)"
+            ],
+            "review_flags": [],
+            "priority_rank": 56
+        },
+        {
+            "name": "Victoria Summers",
+            "company": "Transportation Logistics",
+            "company_size": 550,
+            "industry": "Logistics",
+            "source": "Sales call",
+            "last_interaction_date": "2023-12-28",
+            "score": 7.5,
+            "decision": "QUALIFIED",
+            "reasoning": [
+                "Company is above preferred size (+2)",
+                "Secondary target industry (+1.5)",
+                "Moderate engagement signal (+1.5)",
+                "Recent interaction (+1.5)",
+                "Complete lead record (+1)"
+            ],
+            "review_flags": [],
+            "priority_rank": 57
+        },
+        {
+            "name": "Tobias Wright",
+            "company": "Vehicle Tracking",
+            "company_size": 220,
+            "industry": "Automotive",
+            "source": "Inbound demo request",
+            "last_interaction_date": "2023-12-06",
+            "score": 7.5,
+            "decision": "QUALIFIED",
+            "reasoning": [
+                "Company size matches target ICP (+3)",
+                "Industry outside preferred segments (+0.5)",
+                "Strong acquisition signal (+2)",
+                "Interaction within 90 days (+1)",
+                "Complete lead record (+1)"
+            ],
+            "review_flags": [],
+            "priority_rank": 58
+        },
+        {
+            "name": "Daisy Newton",
+            "company": "Wedding Planning Tech",
+            "company_size": 38,
+            "industry": "Events",
+            "source": "Sales call",
+            "last_interaction_date": "2023-12-22",
+            "score": 7.5,
+            "decision": "QUALIFIED",
+            "reasoning": [
+                "Company size matches target ICP (+3)",
+                "Industry outside preferred segments (+0.5)",
+                "Moderate engagement signal (+1.5)",
+                "Recent interaction (+1.5)",
+                "Complete lead record (+1)"
+            ],
+            "review_flags": [],
+            "priority_rank": 59
+        },
+        {
+            "name": "Maya Desai",
+            "company": "Agricultural Tech",
+            "company_size": 45,
+            "industry": "Agriculture",
+            "source": "Content download",
+            "last_interaction_date": "2024-01-16",
+            "score": 7.0,
+            "decision": "QUALIFIED",
+            "reasoning": [
+                "Company size matches target ICP (+3)",
+                "Industry outside preferred segments (+0.5)",
+                "Early engagement signal (+1)",
+                "Recent interaction (+1.5)",
+                "Complete lead record (+1)"
+            ],
+            "review_flags": [],
+            "priority_rank": 60
+        },
+        {
+            "name": "Katherine Lee",
+            "company": "Artificial Intelligence Lab",
+            "company_size": 65,
+            "industry": "AI/ML",
+            "source": "LinkedIn outreach",
+            "last_interaction_date": "2024-01-13",
+            "score": 7.0,
+            "decision": "QUALIFIED",
+            "reasoning": [
+                "Company size matches target ICP (+3)",
+                "Industry outside preferred segments (+0.5)",
+                "Early engagement signal (+1)",
+                "Recent interaction (+1.5)",
+                "Complete lead record (+1)"
+            ],
+            "review_flags": [],
+            "priority_rank": 61
+        },
+        {
+            "name": "Ulysses Morgan",
+            "company": "Autonomous Vehicles",
+            "company_size": 600,
+            "industry": "Automotive",
+            "source": "Referral",
+            "last_interaction_date": "2023-12-31",
+            "score": 7.0,
+            "decision": "QUALIFIED",
+            "reasoning": [
+                "Company is above preferred size (+2)",
+                "Industry outside preferred segments (+0.5)",
+                "Strong acquisition signal (+2)",
+                "Recent interaction (+1.5)",
+                "Complete lead record (+1)"
+            ],
+            "review_flags": [],
+            "priority_rank": 62
+        },
+        {
+            "name": "Patricia Brown",
+            "company": "Biotechnology Research",
+            "company_size": 250,
+            "industry": "Biotech",
+            "source": "LinkedIn outreach",
+            "last_interaction_date": "2024-01-09",
+            "score": 7.0,
+            "decision": "QUALIFIED",
+            "reasoning": [
+                "Company size matches target ICP (+3)",
+                "Industry outside preferred segments (+0.5)",
+                "Early engagement signal (+1)",
+                "Recent interaction (+1.5)",
+                "Complete lead record (+1)"
+            ],
+            "review_flags": [],
+            "priority_rank": 63
+        },
+        {
+            "name": "Walter Buchanan",
+            "company": "Construction Management",
+            "company_size": 320,
+            "industry": "Construction",
+            "source": "LinkedIn outreach",
+            "last_interaction_date": "2023-12-29",
+            "score": 7.0,
+            "decision": "QUALIFIED",
+            "reasoning": [
+                "Company size matches target ICP (+3)",
+                "Industry outside preferred segments (+0.5)",
+                "Early engagement signal (+1)",
+                "Recent interaction (+1.5)",
+                "Complete lead record (+1)"
+            ],
+            "review_flags": [],
+            "priority_rank": 64
+        },
+        {
+            "name": "Theo Papadopoulos",
+            "company": "Construction Tech",
+            "company_size": 150,
+            "industry": "Construction",
+            "source": "Content download",
+            "last_interaction_date": "2024-01-06",
+            "score": 7.0,
+            "decision": "QUALIFIED",
+            "reasoning": [
+                "Company size matches target ICP (+3)",
+                "Industry outside preferred segments (+0.5)",
+                "Early engagement signal (+1)",
+                "Recent interaction (+1.5)",
+                "Complete lead record (+1)"
+            ],
+            "review_flags": [],
+            "priority_rank": 65
+        },
+        {
+            "name": "Kennedy Owens",
+            "company": "Environmental Monitoring",
+            "company_size": 55,
+            "industry": "Climate Tech",
+            "source": "LinkedIn outreach",
+            "last_interaction_date": "2024-01-10",
+            "score": 7.0,
+            "decision": "QUALIFIED",
+            "reasoning": [
+                "Company size matches target ICP (+3)",
+                "Industry outside preferred segments (+0.5)",
+                "Early engagement signal (+1)",
+                "Recent interaction (+1.5)",
+                "Complete lead record (+1)"
+            ],
+            "review_flags": [],
+            "priority_rank": 66
+        },
+        {
+            "name": "Uma Singh",
+            "company": "Event Planning Co",
+            "company_size": 35,
+            "industry": "Events",
+            "source": "LinkedIn outreach",
+            "last_interaction_date": "2024-01-08",
+            "score": 7.0,
+            "decision": "QUALIFIED",
+            "reasoning": [
+                "Company size matches target ICP (+3)",
+                "Industry outside preferred segments (+0.5)",
+                "Early engagement signal (+1)",
+                "Recent interaction (+1.5)",
+                "Complete lead record (+1)"
+            ],
+            "review_flags": [],
+            "priority_rank": 67
+        },
+        {
+            "name": "Julian Parks",
+            "company": "Hotel Management",
+            "company_size": 250,
+            "industry": "Hospitality",
+            "source": "Sales call",
+            "last_interaction_date": "2023-12-16",
+            "score": 7.0,
+            "decision": "QUALIFIED",
+            "reasoning": [
+                "Company size matches target ICP (+3)",
+                "Industry outside preferred segments (+0.5)",
+                "Moderate engagement signal (+1.5)",
+                "Interaction within 90 days (+1)",
+                "Complete lead record (+1)"
+            ],
+            "review_flags": [],
+            "priority_rank": 68
+        },
+        {
+            "name": "Evelyn Richardson",
+            "company": "Human Resources Tech",
+            "company_size": 70,
+            "industry": "HR Tech",
+            "source": "LinkedIn outreach",
+            "last_interaction_date": "2024-01-16",
+            "score": 7.0,
+            "decision": "QUALIFIED",
+            "reasoning": [
+                "Company size matches target ICP (+3)",
+                "Industry outside preferred segments (+0.5)",
+                "Early engagement signal (+1)",
+                "Recent interaction (+1.5)",
+                "Complete lead record (+1)"
+            ],
+            "review_flags": [],
+            "priority_rank": 69
+        },
+        {
+            "name": "Ursula Hoffmann",
+            "company": "Insurance Tech",
+            "company_size": 130,
+            "industry": "InsurTech",
+            "source": "LinkedIn outreach",
+            "last_interaction_date": "2024-01-05",
+            "score": 7.0,
+            "decision": "QUALIFIED",
+            "reasoning": [
+                "Company size matches target ICP (+3)",
+                "Industry outside preferred segments (+0.5)",
+                "Early engagement signal (+1)",
+                "Recent interaction (+1.5)",
+                "Complete lead record (+1)"
+            ],
+            "review_flags": [],
+            "priority_rank": 70
+        },
+        {
+            "name": "Zachary Coleman",
+            "company": "Landscaping Services",
+            "company_size": 42,
+            "industry": "Services",
+            "source": "Content download",
+            "last_interaction_date": "2023-12-26",
+            "score": 7.0,
+            "decision": "QUALIFIED",
+            "reasoning": [
+                "Company size matches target ICP (+3)",
+                "Industry outside preferred segments (+0.5)",
+                "Early engagement signal (+1)",
+                "Recent interaction (+1.5)",
+                "Complete lead record (+1)"
+            ],
+            "review_flags": [],
+            "priority_rank": 71
+        },
+        {
+            "name": "Bella Cross",
+            "company": "Legal Services Firm",
+            "company_size": 90,
+            "industry": "Legal",
+            "source": "Sales call",
+            "last_interaction_date": "2023-11-30",
+            "score": 7.0,
+            "decision": "QUALIFIED",
+            "reasoning": [
+                "Company size matches target ICP (+3)",
+                "Industry outside preferred segments (+0.5)",
+                "Moderate engagement signal (+1.5)",
+                "Interaction within 90 days (+1)",
+                "Complete lead record (+1)"
+            ],
+            "review_flags": [],
+            "priority_rank": 72
+        },
+        {
+            "name": "Cassandra Jones",
+            "company": "Media & Entertainment",
+            "company_size": 150,
+            "industry": "Media",
+            "source": "Content download",
+            "last_interaction_date": "2024-01-01",
+            "score": 7.0,
+            "decision": "QUALIFIED",
+            "reasoning": [
+                "Company size matches target ICP (+3)",
+                "Industry outside preferred segments (+0.5)",
+                "Early engagement signal (+1)",
+                "Recent interaction (+1.5)",
+                "Complete lead record (+1)"
+            ],
+            "review_flags": [],
+            "priority_rank": 73
+        },
+        {
+            "name": "Priya Patel",
+            "company": "Network Security",
+            "company_size": 180,
+            "industry": "Cybersecurity",
+            "source": "Sales call",
+            "last_interaction_date": "2023-12-10",
+            "score": 7.0,
+            "decision": "QUALIFIED",
+            "reasoning": [
+                "Company size matches target ICP (+3)",
+                "Industry outside preferred segments (+0.5)",
+                "Moderate engagement signal (+1.5)",
+                "Interaction within 90 days (+1)",
+                "Complete lead record (+1)"
+            ],
+            "review_flags": [],
+            "priority_rank": 74
+        },
+        {
+            "name": "Tara Gonzalez",
+            "company": "Nutrition Tech",
+            "company_size": 50,
+            "industry": "HealthTech",
+            "source": "Content download",
+            "last_interaction_date": "2024-01-01",
+            "score": 7.0,
+            "decision": "QUALIFIED",
+            "reasoning": [
+                "Company size matches target ICP (+3)",
+                "Industry outside preferred segments (+0.5)",
+                "Early engagement signal (+1)",
+                "Recent interaction (+1.5)",
+                "Complete lead record (+1)"
+            ],
+            "review_flags": [],
+            "priority_rank": 75
+        },
+        {
+            "name": "Yasmine Aziz",
+            "company": "Pet Care Services",
+            "company_size": 28,
+            "industry": "Consumer Services",
+            "source": "LinkedIn outreach",
+            "last_interaction_date": "2024-01-02",
+            "score": 7.0,
+            "decision": "QUALIFIED",
+            "reasoning": [
+                "Company size matches target ICP (+3)",
+                "Industry outside preferred segments (+0.5)",
+                "Early engagement signal (+1)",
+                "Recent interaction (+1.5)",
+                "Complete lead record (+1)"
+            ],
+            "review_flags": [],
+            "priority_rank": 76
+        },
+        {
+            "name": "Olivia Martinez",
+            "company": "Renewable Energy Corp",
+            "company_size": 600,
+            "industry": "Energy",
+            "source": "Inbound demo request",
+            "last_interaction_date": "2024-01-12",
+            "score": 7.0,
+            "decision": "QUALIFIED",
+            "reasoning": [
+                "Company is above preferred size (+2)",
+                "Industry outside preferred segments (+0.5)",
+                "Strong acquisition signal (+2)",
+                "Recent interaction (+1.5)",
+                "Complete lead record (+1)"
+            ],
+            "review_flags": [],
+            "priority_rank": 77
+        },
+        {
+            "name": "Aaron Benjamin",
+            "company": "Supply Chain Co",
+            "company_size": 320,
+            "industry": "Supply Chain",
+            "source": "LinkedIn outreach",
+            "last_interaction_date": "2024-01-02",
+            "score": 7.0,
+            "decision": "QUALIFIED",
+            "reasoning": [
+                "Company size matches target ICP (+3)",
+                "Industry outside preferred segments (+0.5)",
+                "Early engagement signal (+1)",
+                "Recent interaction (+1.5)",
+                "Complete lead record (+1)"
+            ],
+            "review_flags": [],
+            "priority_rank": 78
+        },
+        {
+            "name": "Iris Wagner",
+            "company": "Telecommunications Equipment",
+            "company_size": 2000,
+            "industry": "Telecom",
+            "source": "Referral",
+            "last_interaction_date": "2024-01-12",
+            "score": 7.0,
+            "decision": "QUALIFIED",
+            "reasoning": [
+                "Company is above preferred size (+2)",
+                "Industry outside preferred segments (+0.5)",
+                "Strong acquisition signal (+2)",
+                "Recent interaction (+1.5)",
+                "Complete lead record (+1)"
+            ],
+            "review_flags": [],
+            "priority_rank": 79
+        },
+        {
+            "name": "Quinn Murphy",
+            "company": "Volunteer Management",
+            "company_size": 40,
+            "industry": "NonProfit",
+            "source": "Webinar attendee",
+            "last_interaction_date": "2023-12-09",
+            "score": 7.0,
+            "decision": "QUALIFIED",
+            "reasoning": [
+                "Company size matches target ICP (+3)",
+                "Industry outside preferred segments (+0.5)",
+                "Moderate engagement signal (+1.5)",
+                "Interaction within 90 days (+1)",
+                "Complete lead record (+1)"
+            ],
+            "review_flags": [],
+            "priority_rank": 80
+        },
+        {
+            "name": "Finn O'Brien",
+            "company": "Craft Beverage",
+            "company_size": 85,
+            "industry": "Consumer",
+            "source": "Content download",
+            "last_interaction_date": "2023-12-20",
+            "score": 6.5,
+            "decision": "REVIEW",
+            "reasoning": [
+                "Company size matches target ICP (+3)",
+                "Industry outside preferred segments (+0.5)",
+                "Early engagement signal (+1)",
+                "Interaction within 90 days (+1)",
+                "Complete lead record (+1)"
+            ],
+            "review_flags": [],
+            "priority_rank": 81
+        },
+        {
+            "name": "Zara Hassan",
+            "company": "Education Institution",
+            "company_size": 600,
+            "industry": "Education",
+            "source": "Inbound demo request",
+            "last_interaction_date": "2023-12-05",
+            "score": 6.5,
+            "decision": "REVIEW",
+            "reasoning": [
+                "Company is above preferred size (+2)",
+                "Industry outside preferred segments (+0.5)",
+                "Strong acquisition signal (+2)",
+                "Interaction within 90 days (+1)",
+                "Complete lead record (+1)"
+            ],
+            "review_flags": [],
+            "priority_rank": 82
+        },
+        {
+            "name": "Louisa Blake",
+            "company": "Interior Design Services",
+            "company_size": 28,
+            "industry": "Services",
+            "source": "Content download",
+            "last_interaction_date": "2023-12-14",
+            "score": 6.5,
+            "decision": "REVIEW",
+            "reasoning": [
+                "Company size matches target ICP (+3)",
+                "Industry outside preferred segments (+0.5)",
+                "Early engagement signal (+1)",
+                "Interaction within 90 days (+1)",
+                "Complete lead record (+1)"
+            ],
+            "review_flags": [],
+            "priority_rank": 83
+        },
+        {
+            "name": "Grace Lee",
+            "company": "Manufacturing Co",
+            "company_size": 450,
+            "industry": "Manufacturing",
+            "source": "Webinar attendee",
+            "last_interaction_date": "2023-10-05",
+            "score": 6.5,
+            "decision": "REVIEW",
+            "reasoning": [
+                "Company size matches target ICP (+3)",
+                "Industry outside preferred segments (+0.5)",
+                "Moderate engagement signal (+1.5)",
+                "Interaction within 180 days (+0.5)",
+                "Complete lead record (+1)"
+            ],
+            "review_flags": [],
+            "priority_rank": 84
+        },
+        {
+            "name": "Oliver Thorne",
+            "company": "Museum Management",
+            "company_size": 65,
+            "industry": "Cultural",
+            "source": "LinkedIn outreach",
+            "last_interaction_date": "2023-12-11",
+            "score": 6.5,
+            "decision": "REVIEW",
+            "reasoning": [
+                "Company size matches target ICP (+3)",
+                "Industry outside preferred segments (+0.5)",
+                "Early engagement signal (+1)",
+                "Interaction within 90 days (+1)",
+                "Complete lead record (+1)"
+            ],
+            "review_flags": [],
+            "priority_rank": 85
+        },
+        {
+            "name": "Nicholas Anderson",
+            "company": "Sports Management",
+            "company_size": 85,
+            "industry": "Sports",
+            "source": "Content download",
+            "last_interaction_date": "2023-12-20",
+            "score": 6.5,
+            "decision": "REVIEW",
+            "reasoning": [
+                "Company size matches target ICP (+3)",
+                "Industry outside preferred segments (+0.5)",
+                "Early engagement signal (+1)",
+                "Interaction within 90 days (+1)",
+                "Complete lead record (+1)"
+            ],
+            "review_flags": [],
+            "priority_rank": 86
+        },
+        {
+            "name": "Bob Rodriguez",
+            "company": "TechVentures Inc",
+            "company_size": 8,
+            "industry": "SaaS",
+            "source": "LinkedIn outreach",
+            "last_interaction_date": "2024-01-20",
+            "score": 6.5,
+            "decision": "REVIEW",
+            "reasoning": [
+                "Company size is outside target (+0.5)",
+                "Core target industry (+2.5)",
+                "Early engagement signal (+1)",
+                "Recent interaction (+1.5)",
+                "Complete lead record (+1)"
+            ],
+            "review_flags": [],
+            "priority_rank": 87
+        },
+        {
+            "name": "Rebecca Green",
+            "company": "Waste Management",
+            "company_size": 1100,
+            "industry": "Environmental",
+            "source": "Webinar attendee",
+            "last_interaction_date": "2024-01-08",
+            "score": 6.5,
+            "decision": "REVIEW",
+            "reasoning": [
+                "Company is above preferred size (+2)",
+                "Industry outside preferred segments (+0.5)",
+                "Moderate engagement signal (+1.5)",
+                "Recent interaction (+1.5)",
+                "Complete lead record (+1)"
+            ],
+            "review_flags": [],
+            "priority_rank": 88
+        },
+        {
+            "name": "Uriel Reyes",
+            "company": "Waste Reduction",
+            "company_size": 95,
+            "industry": "Environmental",
+            "source": "LinkedIn outreach",
+            "last_interaction_date": "2023-12-05",
+            "score": 6.5,
+            "decision": "REVIEW",
+            "reasoning": [
+                "Company size matches target ICP (+3)",
+                "Industry outside preferred segments (+0.5)",
+                "Early engagement signal (+1)",
+                "Interaction within 90 days (+1)",
+                "Complete lead record (+1)"
+            ],
+            "review_flags": [],
+            "priority_rank": 89
+        },
+        {
+            "name": "Harrison Scott",
+            "company": "Commercial Real Estate",
+            "company_size": 900,
+            "industry": "Real Estate",
+            "source": "Content download",
+            "last_interaction_date": "2024-01-13",
+            "score": 6.0,
+            "decision": "REVIEW",
+            "reasoning": [
+                "Company is above preferred size (+2)",
+                "Industry outside preferred segments (+0.5)",
+                "Early engagement signal (+1)",
+                "Recent interaction (+1.5)",
+                "Complete lead record (+1)"
+            ],
+            "review_flags": [],
+            "priority_rank": 90
+        },
+        {
+            "name": "Tina Patel",
+            "company": "Energy Solutions",
+            "company_size": 900,
+            "industry": "Energy",
+            "source": "Inbound demo request",
+            "last_interaction_date": "2023-10-18",
+            "score": 6.0,
+            "decision": "REVIEW",
+            "reasoning": [
+                "Company is above preferred size (+2)",
+                "Industry outside preferred segments (+0.5)",
+                "Strong acquisition signal (+2)",
+                "Interaction within 180 days (+0.5)",
+                "Complete lead record (+1)"
+            ],
+            "review_flags": [],
+            "priority_rank": 91
+        },
+        {
+            "name": "Karen Miller",
+            "company": "InsurancePro",
+            "company_size": 600,
+            "industry": "Insurance",
+            "source": "Sales call",
+            "last_interaction_date": "2023-12-15",
+            "score": 6.0,
+            "decision": "REVIEW",
+            "reasoning": [
+                "Company is above preferred size (+2)",
+                "Industry outside preferred segments (+0.5)",
+                "Moderate engagement signal (+1.5)",
+                "Interaction within 90 days (+1)",
+                "Complete lead record (+1)"
+            ],
+            "review_flags": [],
+            "priority_rank": 92
+        },
+        {
+            "name": "Iris Patel",
+            "company": "Logistics Global",
+            "company_size": 800,
+            "industry": "Logistics",
+            "source": "LinkedIn outreach",
+            "last_interaction_date": "2023-09-20",
+            "score": 6.0,
+            "decision": "REVIEW",
+            "reasoning": [
+                "Company is above preferred size (+2)",
+                "Secondary target industry (+1.5)",
+                "Early engagement signal (+1)",
+                "Interaction within 180 days (+0.5)",
+                "Complete lead record (+1)"
+            ],
+            "review_flags": [],
+            "priority_rank": 93
+        },
+        {
+            "name": "Rachel Kim",
+            "company": "Government Agency",
+            "company_size": 800,
+            "industry": "Government",
+            "source": "Content download",
+            "last_interaction_date": "2023-12-10",
+            "score": 5.5,
+            "decision": "REVIEW",
+            "reasoning": [
+                "Company is above preferred size (+2)",
+                "Industry outside preferred segments (+0.5)",
+                "Early engagement signal (+1)",
+                "Interaction within 90 days (+1)",
+                "Complete lead record (+1)"
+            ],
+            "review_flags": [],
+            "priority_rank": 94
+        },
+        {
+            "name": "Carol Singh",
+            "company": "National Bank Corp",
+            "company_size": 5000,
+            "industry": "Finance",
+            "source": "Content download",
+            "last_interaction_date": "2023-12-01",
+            "score": 5.0,
+            "decision": "REVIEW",
+            "reasoning": [
+                "Company size is outside target (+0.5)",
+                "Secondary target industry (+1.5)",
+                "Early engagement signal (+1)",
+                "Interaction within 90 days (+1)",
+                "Complete lead record (+1)"
+            ],
+            "review_flags": [],
+            "priority_rank": 95
+        },
+        {
+            "name": "Olivia Garcia",
+            "company": "Local Restaurant Group",
+            "company_size": 12,
+            "industry": "Hospitality",
+            "source": "LinkedIn outreach",
+            "last_interaction_date": "2023-08-30",
+            "score": 4.5,
+            "decision": "REVIEW",
+            "reasoning": [
+                "Company is smaller than target (+1.5)",
+                "Industry outside preferred segments (+0.5)",
+                "Early engagement signal (+1)",
+                "Interaction within 180 days (+0.5)",
+                "Complete lead record (+1)"
+            ],
+            "review_flags": [],
+            "priority_rank": 96
+        },
+        {
+            "name": "Pamela White",
+            "company": "Pharma Research Inc",
+            "company_size": 2200,
+            "industry": "Pharmaceuticals",
+            "source": "Sales call",
+            "last_interaction_date": "2023-11-25",
+            "score": 4.5,
+            "decision": "REVIEW",
+            "reasoning": [
+                "Company size is outside target (+0.5)",
+                "Industry outside preferred segments (+0.5)",
+                "Moderate engagement signal (+1.5)",
+                "Interaction within 90 days (+1)",
+                "Complete lead record (+1)"
+            ],
+            "review_flags": [],
+            "priority_rank": 97
+        },
+        {
+            "name": "Quincy Adams",
+            "company": "Streaming Service",
+            "company_size": 3000,
+            "industry": "Media",
+            "source": "Sales call",
+            "last_interaction_date": "2023-10-30",
+            "score": 4.5,
+            "decision": "REVIEW",
+            "reasoning": [
+                "Company size is outside target (+0.5)",
+                "Industry outside preferred segments (+0.5)",
+                "Moderate engagement signal (+1.5)",
+                "Interaction within 90 days (+1)",
+                "Complete lead record (+1)"
+            ],
+            "review_flags": [],
+            "priority_rank": 98
+        },
+        {
+            "name": "Fiona Murphy",
+            "company": "Telecommunications",
+            "company_size": 2500,
+            "industry": "Telecom",
+            "source": "Sales call",
+            "last_interaction_date": "2023-11-15",
+            "score": 4.5,
+            "decision": "REVIEW",
+            "reasoning": [
+                "Company size is outside target (+0.5)",
+                "Industry outside preferred segments (+0.5)",
+                "Moderate engagement signal (+1.5)",
+                "Interaction within 90 days (+1)",
+                "Complete lead record (+1)"
+            ],
+            "review_flags": [],
+            "priority_rank": 99
+        },
+        {
+            "name": "Hassan Khalil",
+            "company": "Oil & Gas Corp",
+            "company_size": 8000,
+            "industry": "Energy",
+            "source": "Content download",
+            "last_interaction_date": "2023-09-01",
+            "score": 3.5,
+            "decision": "REJECTED",
+            "reasoning": [
+                "Company size is outside target (+0.5)",
+                "Industry outside preferred segments (+0.5)",
+                "Early engagement signal (+1)",
+                "Interaction within 180 days (+0.5)",
+                "Complete lead record (+1)"
+            ],
+            "review_flags": [],
+            "priority_rank": 100
+        }
+    ],
+    "outreach_results": [
+        {
+            "lead_id": 0,
+            "variants": [
+                {
+                    "type": "professional_email",
+                    "message": "I’m reaching out to introduce our workflow automation and analytics platform that could help Cloud Infrastructure streamline internal processes and gain better visibility into operational metrics. Would you be open to a brief 15‑minute call next week to explore how this might fit into your current workflow?"
+                },
+                {
+                    "type": "friendly_email",
+                    "message": "Hey Derek, hope you’re doing well! I thought of Cloud Infrastructure when I was looking at ways to simplify repetitive tasks. Our platform might be useful for automating routine workflows and giving you clearer analytics. Would love to chat about it—maybe a quick call sometime?"
+                },
+                {
+                    "type": "linkedin",
+                    "message": "Hi Derek, I’m reaching out to share our workflow automation platform that could help Cloud Infrastructure streamline processes and improve analytics visibility. Interested in a brief chat to explore possibilities?"
+                }
+            ]
+        },
+        {
+            "lead_id": 1,
+            "variants": [
+                {
+                    "type": "professional_email",
+                    "message": "I’m reaching out to introduce our workflow automation and analytics platform that could help CloudScale AI optimize its operational workflows and gain actionable insights. Would you be available for a short call next week to discuss how this might support your team?"
+                },
+                {
+                    "type": "friendly_email",
+                    "message": "Hi Alice, hope all is well! I was thinking about how CloudScale AI could benefit from automating repetitive tasks. Our platform might be useful for simplifying workflows and providing better analytics. Let me know if you’d like to chat."
+                },
+                {
+                    "type": "linkedin",
+                    "message": "Hi Alice, I’m sharing our workflow automation platform that could help CloudScale AI streamline processes and enhance analytics. Would you have time for a quick discussion?"
+                }
+            ]
+        },
+        {
+            "lead_id": 2,
+            "variants": [
+                {
+                    "type": "professional_email",
+                    "message": "I'm reaching out to introduce our workflow automation and analytics platform. As a FinTech Startup, you might find that automating repetitive processes could help streamline operations and provide clearer insights into your financial workflows. If you have a few minutes, I'd love to discuss how this could be relevant to your team. Let me know a convenient time."
+                },
+                {
+                    "type": "friendly_email",
+                    "message": "Hey Leon, hope you're doing well! I wanted to share something that could help your FinTech Startup keep things running smoothly. Our platform can automate routine tasks and give you better visibility into your processes. If you’re curious, let’s chat—just drop me a line when you’re free!"
+                },
+                {
+                    "type": "linkedin",
+                    "message": "Hi Leon, I’m reaching out to share a workflow automation tool that could help your FinTech startup streamline operations and gain clearer insights. Let me know if you’d like to discuss further."
+                }
+            ]
+        },
+        {
+            "lead_id": 3,
+            "variants": [
+                {
+                    "type": "professional_email",
+                    "message": "I'm reaching out to introduce our workflow automation and analytics platform. For a company in software like Logistics Optimization, our solution could help streamline internal processes and provide insights into operational data. If this sounds interesting, I'd welcome the chance to discuss how it might fit your needs. Let me know a convenient time for a brief call."
+                },
+                {
+                    "type": "friendly_email",
+                    "message": "Hey Jerome, I hope you're doing well. I wanted to share a quick idea that could make day‑to‑day operations at Logistics Optimization smoother. Our platform can automate routine tasks and give you clearer visibility into your workflows. If you're curious, let me know and we can set up a short chat."
+                },
+                {
+                    "type": "linkedin",
+                    "message": "Hi Jerome, I thought you might find our workflow automation tool useful for Logistics Optimization. It can help automate routine tasks and provide analytics. Let me know if you'd like to learn more."
+                }
+            ]
+        },
+        {
+            "lead_id": 4,
+            "variants": [
+                {
+                    "type": "professional_email",
+                    "message": "I'm reaching out to introduce our workflow automation and analytics platform. For a FinTech company like Payment Processing, the platform could help streamline payment processing workflows and provide real‑time analytics. If you have a few minutes, I'd love to show you a quick demo to explore how it might fit your needs."
+                },
+                {
+                    "type": "friendly_email",
+                    "message": "Hey Dominic, hope you're doing well! I'm reaching out to share a tool that could help Payment Processing smooth out its payment workflows and give you clearer insights. Let me know if you'd like a quick walkthrough—happy to fit into your schedule."
+                },
+                {
+                    "type": "linkedin",
+                    "message": "Hi Dominic, I’m reaching out to introduce our workflow automation and analytics platform. It may help Payment Processing streamline payment processes and gain better visibility. Would you be open to a brief chat?"
+                }
+            ]
+        },
+        {
+            "lead_id": 5,
+            "variants": [
+                {
+                    "type": "professional_email",
+                    "message": "I'm reaching out to introduce our workflow automation and analytics platform. For a company like Supply Chain Analytics, our solution could help streamline data pipelines and provide insights into operational metrics. If you’re interested, could we schedule a brief call to explore possibilities?"
+                },
+                {
+                    "type": "friendly_email",
+                    "message": "Hey Chloe, hope you’re doing well. I thought of Supply Chain Analytics and wondered if automating some of your workflows might free up time for deeper analysis. Would love to chat about how that could work for you."
+                },
+                {
+                    "type": "linkedin",
+                    "message": "Hi Chloe, I’m reaching out to introduce our workflow automation and analytics platform. It could help Supply Chain Analytics streamline processes and gain clearer insights. Let’s connect to discuss how it might fit your needs."
+                }
+            ]
+        },
+        {
+            "lead_id": 6,
+            "variants": [
+                {
+                    "type": "professional_email",
+                    "message": "I'm reaching out to introduce our workflow automation and analytics platform. For a company like Accounting Software, our solution may be useful for automating routine accounting tasks and providing analytics on financial flows. If you’re open to it, could we schedule a brief call to explore possibilities?"
+                },
+                {
+                    "type": "friendly_email",
+                    "message": "Hey Franklin, hope all is good. I wondered if automating some accounting workflows could help your team focus more on strategic analysis. Let’s chat about how that might work for you."
+                },
+                {
+                    "type": "linkedin",
+                    "message": "Hi Franklin, I'm reaching out to introduce our workflow automation and analytics platform. It could help Accounting Software automate processes and monitor key financial metrics. Let’s connect to discuss how it might fit your needs."
+                }
+            ]
+        },
+        {
+            "lead_id": 7,
+            "variants": [
+                {
+                    "type": "professional_email",
+                    "message": "I'm reaching out to introduce our workflow automation and analytics platform. For a SaaS company like Customer Support Platform, our solution could help automate ticket routing and provide analytics on support performance. If you’re interested, could we schedule a brief call to explore possibilities?"
+                },
+                {
+                    "type": "friendly_email",
+                    "message": "Hey Yolanda, hope you’re doing well. I thought automating some support workflows might free up time for your team to focus on customer satisfaction. Let’s chat about how that could work for you."
+                },
+                {
+                    "type": "linkedin",
+                    "message": "Hi Yolanda, I'm reaching out to introduce our workflow automation and analytics platform. It could help Customer Support Platform automate support processes and monitor key metrics. Let’s connect to discuss how it might fit your needs."
+                }
+            ]
+        },
+        {
+            "lead_id": 8,
+            "variants": [
+                {
+                    "type": "professional_email",
+                    "message": "I'm reaching out to introduce our workflow automation and analytics platform. For an e-commerce SaaS like E-commerce Platform, our solution could help streamline order processing and provide analytics on sales trends. If you’re open to it, could we schedule a brief call to explore possibilities?"
+                },
+                {
+                    "type": "friendly_email",
+                    "message": "Hey Gina, hope all is well. I wondered if automating some order workflows could help your team focus on growth. Let’s chat about how that might work for you."
+                },
+                {
+                    "type": "linkedin",
+                    "message": "Hi Gina, I'm reaching out to introduce our workflow automation and analytics platform. It could help E-commerce Platform automate processes and gain insights into sales performance. Let’s connect to discuss how it might fit your needs."
+                }
+            ]
+        },
+        {
+            "lead_id": 9,
+            "variants": [
+                {
+                    "type": "professional_email",
+                    "message": "I'm reaching out to introduce our workflow automation and analytics platform. For a company like Database Software, our solution may be useful for automating data ingestion and monitoring database performance. If you’re interested, could we schedule a brief call to explore possibilities?"
+                },
+                {
+                    "type": "friendly_email",
+                    "message": "Hey Quinton, hope you’re doing well. I wondered if automating some data workflows could help your team focus on core development. Let’s chat about how that might work for you."
+                },
+                {
+                    "type": "linkedin",
+                    "message": "Hi Quinton, I'm reaching out to introduce our workflow automation and analytics platform. It could help Database Software streamline data processes and provide analytics on performance. Let’s connect to discuss how it might fit your needs."
+                }
+            ]
+        },
+        {
+            "lead_id": 10,
+            "variants": [
+                {
+                    "type": "professional_email",
+                    "message": "I'm reaching out to introduce our workflow automation and analytics platform. For a dental practice management firm like Dental Practice Management, our solution could help streamline appointment scheduling, billing, and patient data analytics, potentially improving operational efficiency. If you're interested in exploring how this might fit your workflow, I'd welcome a brief call at your convenience."
+                },
+                {
+                    "type": "friendly_email",
+                    "message": "Hey Audrey,\n\nI’m excited to share a tool that could help Dental Practice Management streamline appointment scheduling and billing while giving you deeper insights into patient data. If you’re curious about how it might fit into your day‑to‑day operations, let’s set up a quick chat."
+                },
+                {
+                    "type": "linkedin",
+                    "message": "Hi Audrey,\nI’d love to show how our platform could help Dental Practice Management streamline scheduling and billing. Quick call?"
+                }
+            ]
+        },
+        {
+            "lead_id": 11,
+            "variants": [
+                {
+                    "type": "professional_email",
+                    "message": "I'm reaching out to introduce our workflow automation and analytics platform. For a knowledge management company such as Knowledge Management, our solution may be useful for automating content tagging, extracting insights from documents, and monitoring usage analytics. If you’d like to discuss how this could support your processes, I’m available for a short call."
+                },
+                {
+                    "type": "friendly_email",
+                    "message": "Hi Kevin,\n\nI think our platform could help Knowledge Management automate content tagging and pull useful analytics from your documents. If you’re up for a quick chat, I’d love to show you how it works."
+                },
+                {
+                    "type": "linkedin",
+                    "message": "Hi Kevin,\nOur tool may help Knowledge Management automate tagging and analytics. Quick call?"
+                }
+            ]
+        },
+        {
+            "lead_id": 12,
+            "variants": [
+                {
+                    "type": "professional_email",
+                    "message": "I'm reaching out to introduce our workflow automation and analytics platform. For a mobile development firm like Mobile Development, our solution could help automate testing pipelines, track build metrics, and analyze app performance data. If you’re interested in exploring this possibility, I’d welcome a brief conversation."
+                },
+                {
+                    "type": "friendly_email",
+                    "message": "Hey Ethan,\n\nI think our platform could help Mobile Development automate testing and give you clearer insights into app performance. If you want to see how it works, let’s hop on a quick call."
+                },
+                {
+                    "type": "linkedin",
+                    "message": "Hi Ethan,\nOur tool might help Mobile Development automate testing and analytics. Quick call?"
+                }
+            ]
+        },
+        {
+            "lead_id": 13,
+            "variants": [
+                {
+                    "type": "professional_email",
+                    "message": "I'm reaching out to introduce our workflow automation and analytics platform. For a pharmaceutical distribution company such as Pharmaceutical Distribution, our solution may be useful for automating order processing, tracking shipments, and analyzing distribution metrics. If you’d like to discuss how this could support your operations, I’m available for a short call."
+                },
+                {
+                    "type": "friendly_email",
+                    "message": "Hi William,\n\nI think our platform could help Pharmaceutical Distribution automate order processing and track shipments while giving you better distribution insights. If you’re interested, let’s schedule a quick chat."
+                },
+                {
+                    "type": "linkedin",
+                    "message": "Hi William,\nOur tool may help Pharmaceutical Distribution automate orders and analytics. Quick call?"
+                }
+            ]
+        },
+        {
+            "lead_id": 14,
+            "variants": [
+                {
+                    "type": "professional_email",
+                    "message": "I'm reaching out to introduce our workflow automation and analytics platform. For a warehouse automation firm like Warehouse Automation, our solution could help automate inventory updates, monitor logistics workflows, and provide analytics on warehouse performance. If you’d like to explore this possibility, I’d welcome a brief conversation."
+                },
+                {
+                    "type": "friendly_email",
+                    "message": "Hey Oscar,\n\nI think our platform could help Warehouse Automation automate inventory updates and give you clearer warehouse analytics. If you’re up for a quick call, let me know."
+                },
+                {
+                    "type": "linkedin",
+                    "message": "Hi Oscar,\nOur tool might help Warehouse Automation automate inventory and analytics. Quick call?"
+                }
+            ]
+        },
+        {
+            "lead_id": 15,
+            "variants": [
+                {
+                    "type": "professional_email",
+                    "message": "I'm reaching out to introduce our workflow automation and analytics platform. For a wine distribution business like yours, our solution could help streamline order processing and inventory tracking, giving you clearer visibility into sales flows. If you’re interested, let’s schedule a brief demo at your convenience."
+                },
+                {
+                    "type": "friendly_email",
+                    "message": "Hey Sophia, hope you’re doing well! I wanted to share a quick idea that might help your wine distribution team keep track of orders and stock more smoothly. Our platform can automate those repetitive steps, giving you more time to focus on the wine. Let me know if you’d like to chat!"
+                },
+                {
+                    "type": "linkedin",
+                    "message": "Hi Sophia, I think our workflow automation platform could help streamline order and inventory processes for Wine Distribution. Would you be open to a quick call to explore this?"
+                }
+            ]
+        },
+        {
+            "lead_id": 16,
+            "variants": [
+                {
+                    "type": "professional_email",
+                    "message": "I'm reaching out to introduce our workflow automation and analytics platform. For a financial advisory firm, our solution could help automate compliance reporting and aggregate client data, providing clearer insights into portfolio performance. If that sounds useful, let’s arrange a short walkthrough."
+                },
+                {
+                    "type": "friendly_email",
+                    "message": "Hi Silas, hope all is well! I’ve got a thought that might make your advisory work a bit smoother—automating compliance reports and pulling client data into one view. Our platform could make that easier. Interested in a quick chat?"
+                },
+                {
+                    "type": "linkedin",
+                    "message": "Hi Silas, our workflow automation platform might help streamline compliance reporting and data aggregation for Financial Advisory. Would you be open to a brief conversation?"
+                }
+            ]
+        },
+        {
+            "lead_id": 17,
+            "variants": [
+                {
+                    "type": "professional_email",
+                    "message": "I'm reaching out to introduce our workflow automation and analytics platform. For a laboratory information company, our solution could help automate data entry and provide analytics on testing workflows, potentially improving efficiency. Let’s schedule a brief demo if that interests you."
+                },
+                {
+                    "type": "friendly_email",
+                    "message": "Hey Sophie, hope you’re doing great! I thought of a way our platform could help your lab team automate data entry and get better insights into testing processes. Would love to share more—let me know!"
+                },
+                {
+                    "type": "linkedin",
+                    "message": "Hi Sophie, our workflow automation platform could help automate data entry and analytics for Laboratory Information. Would you be open to a quick call?"
+                }
+            ]
+        },
+        {
+            "lead_id": 18,
+            "variants": [
+                {
+                    "type": "professional_email",
+                    "message": "I'm reaching out to introduce our workflow automation and analytics platform. For a medical device company, our solution could help automate regulatory documentation and analyze production workflows, giving you clearer oversight. If that sounds useful, let’s arrange a short walkthrough."
+                },
+                {
+                    "type": "friendly_email",
+                    "message": "Hi Lauren, hope all is well! I think our platform could help your team automate regulatory paperwork and get better visibility into production processes. Let me know if you’d like to chat!"
+                },
+                {
+                    "type": "linkedin",
+                    "message": "Hi Lauren, our workflow automation platform might help automate regulatory documentation and analyze production workflows for Medical Devices. Would you be open to a brief conversation?"
+                }
+            ]
+        },
+        {
+            "lead_id": 19,
+            "variants": [
+                {
+                    "type": "professional_email",
+                    "message": "I'm reaching out to introduce our workflow automation and analytics platform. For a retail inventory business, our solution could help automate inventory reconciliation and provide analytics on stock movements, potentially improving accuracy. Let’s schedule a brief demo if that interests you."
+                },
+                {
+                    "type": "friendly_email",
+                    "message": "Hey Harper, hope you’re doing well! I’ve got a quick idea that could help your inventory team automate reconciliation and get clearer insights into stock levels. Would love to share more—let me know!"
+                },
+                {
+                    "type": "linkedin",
+                    "message": "Hi Harper, our workflow automation platform could help automate inventory reconciliation and analytics for Retail Inventory. Would you be open to a quick call?"
+                }
+            ]
+        },
+        {
+            "lead_id": 20,
+            "variants": [
+                {
+                    "type": "professional_email",
+                    "message": "I'm reaching out to introduce our workflow automation and analytics platform. For a retail-focused company such as RetailWorks Solutions, the platform could help automate order fulfillment workflows and provide actionable analytics. If you have a few minutes, I'd welcome the chance to demonstrate how it might support your operations."
+                },
+                {
+                    "type": "friendly_email",
+                    "message": "Hi Emma, hope all is good! I wanted to share a solution that could help RetailWorks Solutions automate its retail workflows and get clearer data. Let me know if you'd like a quick demo—happy to work around your calendar."
+                },
+                {
+                    "type": "linkedin",
+                    "message": "Hi Emma, I’m reaching out to introduce our workflow automation and analytics platform. It may help RetailWorks Solutions streamline retail operations and gain better insights. Would you be open to a short conversation?"
+                }
+            ]
+        },
+        {
+            "lead_id": 21,
+            "variants": [
+                {
+                    "type": "professional_email",
+                    "message": "I'm reaching out to introduce our workflow automation and analytics platform. At Sustainable Fashion, you could streamline order fulfillment and inventory tracking while gaining insights into sustainability metrics. If this sounds relevant, could we schedule a 15‑minute demo next week?"
+                },
+                {
+                    "type": "friendly_email",
+                    "message": "Hey Ruby, hope you're well! I'm reaching out to introduce our workflow automation and analytics platform. It might help Sustainable Fashion simplify order processing and keep a pulse on sustainability data. Would love to chat for a quick call if you're interested."
+                },
+                {
+                    "type": "linkedin",
+                    "message": "Hi Ruby, I’m reaching out to introduce our workflow automation and analytics platform. It could help Sustainable Fashion streamline order fulfillment and track sustainability metrics. Let me know if you’d like to explore further."
+                }
+            ]
+        },
+        {
+            "lead_id": 22,
+            "variants": [
+                {
+                    "type": "professional_email",
+                    "message": "I'm reaching out to introduce our workflow automation and analytics platform. At Venture Capital Fund, it could help automate data aggregation from portfolio companies and provide analytics to track performance. If this resonates, could we arrange a short call to discuss?"
+                },
+                {
+                    "type": "friendly_email",
+                    "message": "Hi Liam, hope all is well! I'm reaching out to introduce our workflow automation and analytics platform. It might be useful for Venture Capital Fund to automate data collection from portfolio companies and analyze performance trends. Let me know if you'd like a quick chat."
+                },
+                {
+                    "type": "linkedin",
+                    "message": "Hi Liam, I’m reaching out to introduce our workflow automation and analytics platform. It could help Venture Capital Fund automate data aggregation and track performance analytics. Let me know if you'd like to explore."
+                }
+            ]
+        },
+        {
+            "lead_id": 23,
+            "variants": [
+                {
+                    "type": "professional_email",
+                    "message": "I'm reaching out to introduce our workflow automation and analytics platform. For a finance-focused venture studio, our solution could help streamline internal processes and provide insights into project performance. If you have a moment, I’d be happy to discuss how it might fit your needs."
+                },
+                {
+                    "type": "friendly_email",
+                    "message": "Hey Marcus, hope all’s good at Venture Studio! I thought our workflow automation tool might be useful for your finance projects. Would love to chat about it when you’re free."
+                },
+                {
+                    "type": "linkedin",
+                    "message": "Hi Marcus, I’d like to share how our platform could streamline finance workflows at Venture Studio. Let me know if you’re interested."
+                }
+            ]
+        },
+        {
+            "lead_id": 24,
+            "variants": [
+                {
+                    "type": "professional_email",
+                    "message": "I'm reaching out to introduce our workflow automation and analytics platform. For a cryptocurrency-focused startup, our solution could help manage project pipelines and track key metrics. If you have time, I’d be happy to discuss how it might support your team."
+                },
+                {
+                    "type": "friendly_email",
+                    "message": "Hi Mona, hope you’re doing well at Blockchain Startup! I think our platform could be useful for managing crypto projects. Let me know if you want to talk."
+                },
+                {
+                    "type": "linkedin",
+                    "message": "Hi Mona, I’d like to share how our workflow tool could help streamline operations at Blockchain Startup. Let me know if you’re interested."
+                }
+            ]
+        },
+        {
+            "lead_id": 25,
+            "variants": [
+                {
+                    "type": "professional_email",
+                    "message": "I'm reaching out to introduce our workflow automation and analytics platform. For Climate Analytics, which operates in Climate Tech, our solution could help streamline the collection, processing, and reporting of climate data, potentially reducing manual effort. If you're interested, I'd be happy to arrange a brief walkthrough at your convenience."
+                },
+                {
+                    "type": "friendly_email",
+                    "message": "Hey Bryson, hope you're doing well! I wanted to share something that might be useful for Climate Analytics. Our workflow automation and analytics platform could help you manage climate data more efficiently. Let me know if you'd like to chat about it."
+                },
+                {
+                    "type": "linkedin",
+                    "message": "Hi Bryson, I’m reaching out to introduce our workflow automation and analytics platform. It could help Climate Analytics streamline climate data workflows. If that sounds interesting, let’s connect or schedule a quick call."
+                }
+            ]
+        },
+        {
+            "lead_id": 26,
+            "variants": [
+                {
+                    "type": "professional_email",
+                    "message": "I'm reaching out to introduce our workflow automation and analytics platform. For Cloud Storage, which operates in SaaS, our solution could help automate storage provisioning and provide analytics on usage patterns, potentially improving operational efficiency. If you'd like to explore further, I'd be happy to arrange a brief walkthrough."
+                },
+                {
+                    "type": "friendly_email",
+                    "message": "Hey Bradley, hope all is well! I wanted to share something that might be useful for Cloud Storage. Our workflow automation and analytics platform could help you automate storage processes and gain insights into usage. Let me know if you'd like to discuss."
+                },
+                {
+                    "type": "linkedin",
+                    "message": "Hi Bradley, I’m reaching out to introduce our workflow automation and analytics platform. It could help Cloud Storage streamline storage operations and provide analytics on usage. If that sounds interesting, let’s connect or set up a quick call."
+                }
+            ]
+        },
+        {
+            "lead_id": 27,
+            "variants": [
+                {
+                    "type": "professional_email",
+                    "message": "I'm reaching out to introduce our workflow automation and analytics platform. For a business like Commercial Cleaning, our solution could help streamline scheduling and invoicing, giving you clearer visibility into operations. If you have a few minutes next week, I'd love to show you a brief demo."
+                },
+                {
+                    "type": "friendly_email",
+                    "message": "Hey Veronica, hope you're doing well! I wanted to share a quick idea that could make things smoother at Commercial Cleaning—our platform can help automate routine tasks and give you better insights into your daily operations. Would you be up for a short chat to explore this?"
+                },
+                {
+                    "type": "linkedin",
+                    "message": "Hi Veronica, I’m sharing a quick thought—our workflow automation and analytics platform might help Commercial Cleaning streamline routine tasks and improve operational visibility. Let’s connect to discuss how it could fit your needs."
+                }
+            ]
+        },
+        {
+            "lead_id": 28,
+            "variants": [
+                {
+                    "type": "professional_email",
+                    "message": "I'm reaching out to introduce our workflow automation and analytics platform. For a cybersecurity startup like yours, it could help streamline incident response workflows and provide clearer compliance reporting. If you have time next week, I'd be glad to walk you through a quick demo."
+                },
+                {
+                    "type": "friendly_email",
+                    "message": "Hi Samuel, hope all is good! I thought our platform might help your cybersecurity startup by automating incident response steps and giving you better visibility into compliance tasks. Would you be open to a brief conversation?"
+                },
+                {
+                    "type": "linkedin",
+                    "message": "Hi Samuel, I’m sharing a quick idea—our workflow automation and analytics platform could help streamline incident response and compliance reporting for your cybersecurity startup. Let’s connect to explore this."
+                }
+            ]
+        },
+        {
+            "lead_id": 29,
+            "variants": [
+                {
+                    "type": "professional_email",
+                    "message": "I'm reaching out to introduce our workflow automation and analytics platform. At Digital Marketing Agency, you might find that automating repetitive campaign tasks and analyzing performance data could help streamline operations and provide deeper insights into client results. If you have a moment, I'd love to show you a quick demo that could be relevant to your team."
+                },
+                {
+                    "type": "friendly_email",
+                    "message": "Hey Jack, hope you're doing well! I'm reaching out to share a tool that could help Digital Marketing Agency simplify workflow and get better analytics on campaigns. It might be useful for your team. Let me know if you'd like a quick chat."
+                },
+                {
+                    "type": "linkedin",
+                    "message": "Hi Jack, I’m reaching out to introduce our workflow automation and analytics platform. It could help Digital Marketing Agency streamline tasks and gain clearer campaign insights. Interested in a brief call?"
+                }
+            ]
+        },
+        {
+            "lead_id": 30,
+            "variants": [
+                {
+                    "type": "professional_email",
+                    "message": "I’m reaching out to introduce our workflow automation and analytics platform. For a company like EdTech Innovations, our solution could help streamline content delivery workflows and provide insights into learner engagement. Would you be open to a brief 15‑minute call to explore how this might support your team?"
+                },
+                {
+                    "type": "friendly_email",
+                    "message": "Hey Henry, hope you’re doing well. I wanted to share a quick idea that might make your day a bit easier at EdTech Innovations. Our workflow automation platform could help you streamline your course publishing process and give you clearer visibility into student progress. Let me know if you’d like to chat about this over a quick call."
+                },
+                {
+                    "type": "linkedin",
+                    "message": "Hi Henry, I’m reaching out to share how our workflow automation and analytics platform could help streamline processes at EdTech Innovations. Would you be open to a brief chat?"
+                }
+            ]
+        },
+        {
+            "lead_id": 31,
+            "variants": [
+                {
+                    "type": "professional_email",
+                    "message": "I’m reaching out to introduce our workflow automation and analytics platform. For a retail brand like Fashion Brand, our solution could help streamline order fulfillment and provide analytics on customer interactions. Would you be open to a brief 15‑minute call to explore how this might support your team?"
+                },
+                {
+                    "type": "friendly_email",
+                    "message": "Hi Wendy, hope all is well. I thought of a way our workflow automation platform could help streamline your retail operations at Fashion Brand, giving you clearer insight into sales flows. Let me know if you’d like to discuss this over a quick call."
+                },
+                {
+                    "type": "linkedin",
+                    "message": "Hi Wendy, I’m reaching out to share how our workflow automation and analytics platform could help streamline operations at Fashion Brand. Would you be open to a brief chat?"
+                }
+            ]
+        },
+        {
+            "lead_id": 32,
+            "variants": [
+                {
+                    "type": "professional_email",
+                    "message": "I’m reaching out to introduce our workflow automation and analytics platform. For a fashion e‑commerce business like Fashion E-commerce, our solution could help streamline order processing and give you better visibility into customer purchase patterns. Would you be open to a brief 15‑minute call to explore how this might support your team?"
+                },
+                {
+                    "type": "friendly_email",
+                    "message": "Hi Natalie, hope you’re doing well. I wanted to share how our workflow automation platform could help streamline your e‑commerce operations at Fashion E-commerce, giving you clearer insight into order flows. Let me know if you’d like to chat about this over a quick call."
+                },
+                {
+                    "type": "linkedin",
+                    "message": "Hi Natalie, I’m reaching out to share how our workflow automation and analytics platform could help streamline processes at Fashion E-commerce. Would you be open to a brief chat?"
+                }
+            ]
+        },
+        {
+            "lead_id": 33,
+            "variants": [
+                {
+                    "type": "professional_email",
+                    "message": "I’m reaching out to introduce our workflow automation and analytics platform. For a logistics company like Freight Forwarding, our solution could help streamline shipment tracking workflows and give you better visibility into delivery metrics. Would you be open to a brief 15‑minute call to explore how this might support your team?"
+                },
+                {
+                    "type": "friendly_email",
+                    "message": "Hi Cecilia, hope you’re doing well. I thought of a way our workflow automation platform could help streamline your freight processes at Freight Forwarding, giving you clearer insight into shipment status. Let me know if you’d like to discuss this over a quick call."
+                },
+                {
+                    "type": "linkedin",
+                    "message": "Hi Cecilia, I’m reaching out to share how our workflow automation and analytics platform could help streamline operations at Freight Forwarding. Would you be open to a brief chat?"
+                }
+            ]
+        },
+        {
+            "lead_id": 34,
+            "variants": [
+                {
+                    "type": "professional_email",
+                    "message": "I’m reaching out to introduce our workflow automation and analytics platform. For a hospitality business like Luxury Hotels, our solution could help streamline guest service workflows and provide analytics on operational efficiency. Would you be open to a brief 15‑minute call to explore how this might support your team?"
+                },
+                {
+                    "type": "friendly_email",
+                    "message": "Hi Isabella, hope all is good. I thought of a way our workflow automation platform could help streamline guest service processes at Luxury Hotels, giving you clearer insight into operational metrics. Let me know if you’d like to discuss this over a quick call."
+                },
+                {
+                    "type": "linkedin",
+                    "message": "Hi Isabella, I’m reaching out to share how our workflow automation and analytics platform could help streamline operations at Luxury Hotels. Would you be open to a brief chat?"
+                }
+            ]
+        },
+        {
+            "lead_id": 35,
+            "variants": [
+                {
+                    "type": "professional_email",
+                    "message": "I'm reaching out to introduce our workflow automation and analytics platform. Our solution could help streamline patient data workflows at Mental Health Platform, giving your team more time to focus on care. If you have a few minutes, I’d love to schedule a brief demo."
+                },
+                {
+                    "type": "friendly_email",
+                    "message": "Hey Penny, hope you’re doing well! I wanted to share something that might help your team at Mental Health Platform keep things running smoothly. Our platform can automate routine tasks and give you insights that could free up more time for patient support. Let me know if you’d like to chat over coffee or a quick call."
+                },
+                {
+                    "type": "linkedin",
+                    "message": "Hi Penny, I’m reaching out to share how our workflow automation platform might help Mental Health Platform streamline operations. Would you be open to a quick chat?"
+                }
+            ]
+        },
+        {
+            "lead_id": 36,
+            "variants": [
+                {
+                    "type": "professional_email",
+                    "message": "I'm reaching out to introduce our workflow automation and analytics platform. Our solution could help streamline inventory and order processes for Office Furniture, allowing your team to focus on sales. If you’re interested, I’d be happy to arrange a short demo."
+                },
+                {
+                    "type": "friendly_email",
+                    "message": "Hi Zachary, hope all is well! I thought you might find our platform useful for automating back‑office tasks at Office Furniture. It could help your team manage orders and inventory more efficiently. Let me know if you’d like to explore this together."
+                },
+                {
+                    "type": "linkedin",
+                    "message": "Hi Zachary, I’m sharing how our workflow automation platform might help Office Furniture optimize order and inventory workflows. Would you be open to a brief discussion?"
+                }
+            ]
+        },
+        {
+            "lead_id": 37,
+            "variants": [
+                {
+                    "type": "professional_email",
+                    "message": "I'm reaching out to introduce our workflow automation and analytics platform. Our solution could help Property Management streamline tenant communication and maintenance requests, giving your staff more time to focus on tenant satisfaction. If you have time, I’d like to schedule a brief demo."
+                },
+                {
+                    "type": "friendly_email",
+                    "message": "Hey James, hope you’re doing well! I wanted to share a tool that could help Property Management automate routine tasks and get better visibility into maintenance workflows. Let me know if you’d like to chat."
+                },
+                {
+                    "type": "linkedin",
+                    "message": "Hi James, I’m reaching out to share how our workflow automation platform might help Property Management streamline tenant and maintenance processes. Would you be open to a quick call?"
+                }
+            ]
+        },
+        {
+            "lead_id": 38,
+            "variants": [
+                {
+                    "type": "professional_email",
+                    "message": "I'm reaching out to introduce our workflow automation and analytics platform. Our solution could help Robotics Company automate production scheduling and quality tracking, freeing up your team to focus on innovation. If you’re interested, I’d be glad to arrange a short demo."
+                },
+                {
+                    "type": "friendly_email",
+                    "message": "Hi Steven, hope all’s good! I thought our platform might be useful for Robotics Company in automating routine manufacturing tasks and providing analytics that could help your team stay ahead. Let me know if you’d like to discuss further."
+                },
+                {
+                    "type": "linkedin",
+                    "message": "Hi Steven, I’m sharing how our workflow automation platform might help Robotics Company streamline production and quality workflows. Would you be open to a brief conversation?"
+                }
+            ]
+        },
+        {
+            "lead_id": 39,
+            "variants": [
+                {
+                    "type": "professional_email",
+                    "message": "I'm reaching out to introduce our workflow automation and analytics platform. Our solution could help Travel Technology streamline booking and customer support processes, giving your team more time to focus on traveler experience. If you have a few minutes, I’d love to schedule a brief demo."
+                },
+                {
+                    "type": "friendly_email",
+                    "message": "Hey Yuki, hope you’re doing well! I wanted to share a tool that might help Travel Technology automate routine booking and support tasks, providing insights that could free up time for enhancing traveler experience. Let me know if you’d like to chat."
+                },
+                {
+                    "type": "linkedin",
+                    "message": "Hi Yuki, I’m reaching out to share how our workflow automation platform might help Travel Technology streamline booking and support workflows. Would you be open to a quick call?"
+                }
+            ]
+        },
+        {
+            "lead_id": 40,
+            "variants": [
+                {
+                    "type": "professional_email",
+                    "message": "I'm reaching out to introduce our workflow automation and analytics platform. For a veterinary practice like yours, it could help streamline appointment scheduling, patient record management, and billing processes, potentially improving operational efficiency. Would you be open to a brief 15‑minute call next week to explore how this might benefit your team?"
+                },
+                {
+                    "type": "friendly_email",
+                    "message": "Hey Ezra, hope all is well! I wanted to share a tool that could help your veterinary practice streamline appointment scheduling, patient records, and billing—making day‑to‑day operations smoother. If you have a few minutes, I'd love to chat and see if it might be useful for you."
+                },
+                {
+                    "type": "linkedin",
+                    "message": "Hi Ezra, I thought you might find our workflow automation platform useful for managing appointments, patient records, and billing in a veterinary practice. Let’s connect and discuss how it could help streamline your operations."
+                }
+            ]
+        },
+        {
+            "lead_id": 41,
+            "variants": [
+                {
+                    "type": "professional_email",
+                    "message": "I'm reaching out to introduce our workflow automation and analytics platform. For a virtual reality studio, it could help manage project pipelines, asset tracking, and analyze user engagement data, potentially enhancing production workflows. Would you be open to a short 15‑minute call next week to discuss possibilities?"
+                },
+                {
+                    "type": "friendly_email",
+                    "message": "Hey Xander, hope you're doing great! I wanted to share a platform that could help your VR studio keep project pipelines organized, track assets, and get insights into user engagement. If you have a moment, I'd love to chat and see if it might be useful for your team."
+                },
+                {
+                    "type": "linkedin",
+                    "message": "Hi Xander, I thought our workflow automation platform could be useful for managing pipelines, tracking assets, and analyzing engagement in a VR studio. Let’s connect and explore how it might help."
+                }
+            ]
+        },
+        {
+            "lead_id": 42,
+            "variants": [
+                {
+                    "type": "professional_email",
+                    "message": "I'm reaching out to introduce our workflow automation and analytics platform. For a beauty and cosmetics business, it could help automate inventory management, order processing, and provide analytics on sales trends, potentially improving operational efficiency. Would you be open to a brief 15‑minute call next week to explore this?"
+                },
+                {
+                    "type": "friendly_email",
+                    "message": "Hey Gabriella, hope you're well! I wanted to share a tool that could help your beauty and cosmetics company automate inventory, streamline order processing, and get insights into sales trends. If you have a few minutes, I'd love to chat and see if it might be useful."
+                },
+                {
+                    "type": "linkedin",
+                    "message": "Hi Gabriella, I thought our workflow automation platform could help with inventory, order processing, and sales analytics for a beauty and cosmetics business. Let’s connect and discuss how it might support your operations."
+                }
+            ]
+        },
+        {
+            "lead_id": 43,
+            "variants": [
+                {
+                    "type": "professional_email",
+                    "message": "I'm reaching out to introduce our workflow automation and analytics platform. For a consulting firm, it could help automate client reporting, streamline data collection, and provide analytics on project performance, potentially enhancing service delivery. Would you be open to a short 15‑minute call next week to discuss possibilities?"
+                },
+                {
+                    "type": "friendly_email",
+                    "message": "Hey Quinn, hope all is good! I wanted to share a platform that could help your consulting firm automate client reporting, streamline data gathering, and get insights into project performance. If you have a moment, I'd love to chat and see if it might be useful."
+                },
+                {
+                    "type": "linkedin",
+                    "message": "Hi Quinn, I thought our workflow automation platform could be useful for automating client reporting, streamlining data collection, and analyzing project performance in a consulting firm. Let’s connect and explore how it might help."
+                }
+            ]
+        },
+        {
+            "lead_id": 44,
+            "variants": [
+                {
+                    "type": "professional_email",
+                    "message": "I'm reaching out to introduce our workflow automation and analytics platform. For a corporate training organization, it could help automate training content distribution, track learner progress, and provide analytics on training effectiveness, potentially improving training delivery. Would you be open to a brief 15‑minute call next week to explore this?"
+                },
+                {
+                    "type": "friendly_email",
+                    "message": "Hey Iris, hope you're doing well! I wanted to share a tool that could help your corporate training company automate content distribution, track learner progress, and get insights into training effectiveness. If you have a few minutes, I'd love to chat and see if it might be useful."
+                },
+                {
+                    "type": "linkedin",
+                    "message": "Hi Iris, I thought our workflow automation platform could help automate content distribution, track learner progress, and analyze training effectiveness for a corporate training organization. Let’s connect and discuss how it might support your work."
+                }
+            ]
+        },
+        {
+            "lead_id": 45,
+            "variants": [
+                {
+                    "type": "professional_email",
+                    "message": "I'm reaching out to introduce our workflow automation and analytics platform. At Cyber Insurance, automating claim processing workflows and analyzing risk data could help streamline operations and provide clearer insights. If you have a moment, I'd welcome the chance to demonstrate how it might be useful for your team."
+                },
+                {
+                    "type": "friendly_email",
+                    "message": "Hi Marcus, hope all is good! I wanted to share a solution that could help Cyber Insurance simplify workflow and get better analytics on claims. It might be useful for your team. Let me know if you'd like a quick chat."
+                },
+                {
+                    "type": "linkedin",
+                    "message": "Hi Marcus, I’m reaching out to introduce our workflow automation and analytics platform. It could help Cyber Insurance streamline processes and gain clearer insights. Interested in a brief call?"
+                }
+            ]
+        },
+        {
+            "lead_id": 46,
+            "variants": [
+                {
+                    "type": "professional_email",
+                    "message": "Dear Amelia,\nI'm reaching out to introduce our workflow automation and analytics platform that could help streamline incident response processes at Cybersecurity Consulting. If you’re interested, I’d welcome the opportunity to discuss how it might support your team. Please let me know a suitable time for a brief call."
+                },
+                {
+                    "type": "friendly_email",
+                    "message": "Hey Amelia,\nI hope you're doing well. I'm reaching out to introduce our workflow automation and analytics platform that could help streamline incident response processes at Cybersecurity Consulting. If you’re interested, let me know a convenient time for a quick call."
+                },
+                {
+                    "type": "linkedin",
+                    "message": "Hi Amelia,\nI'm reaching out to introduce our workflow automation and analytics platform that could help streamline incident response at Cybersecurity Consulting. Would you be open to a quick chat?"
+                }
+            ]
+        },
+        {
+            "lead_id": 47,
+            "variants": [
+                {
+                    "type": "professional_email",
+                    "message": "Dear Xavier,\nI'm reaching out to introduce our workflow automation and analytics platform that could help automate data pipelines and provide deeper insights at Data Analytics Firm. If you’re interested, I’d welcome the chance to discuss how it might support your work. Please let me know a suitable time for a brief call."
+                },
+                {
+                    "type": "friendly_email",
+                    "message": "Hey Xavier,\nI hope all is well. I'm reaching out to introduce our workflow automation and analytics platform that could help automate data pipelines at Data Analytics Firm. Let me know if you’d like to chat."
+                },
+                {
+                    "type": "linkedin",
+                    "message": "Hi Xavier,\nI'm reaching out to introduce our workflow automation and analytics platform that could help automate data pipelines at Data Analytics Firm. Would you be open to a quick chat?"
+                }
+            ]
+        },
+        {
+            "lead_id": 48,
+            "variants": [
+                {
+                    "type": "professional_email",
+                    "message": "I'm reaching out to introduce our workflow automation and analytics platform. Nathan, at Enterprise Solutions Corp, you might find that automating routine tasks and gaining insights into workflow performance could help reduce manual effort and improve decision making. If you have a few minutes next week, I'd love to discuss how this could fit into your existing processes."
+                },
+                {
+                    "type": "friendly_email",
+                    "message": "Hey Nathan, hope you're doing well! I'm reaching out to share something that could make your day a bit easier at Enterprise Solutions Corp. Our platform can automate repetitive tasks and give you clearer visibility into how workflows are running. If you have a moment, let me know if you'd like to chat about it."
+                },
+                {
+                    "type": "linkedin",
+                    "message": "Hi Nathan, I'm reaching out to introduce our workflow automation and analytics platform. It could help Enterprise Solutions Corp streamline routine processes and gain better visibility into workflow performance. Would you be open to a quick call to discuss further?"
+                }
+            ]
+        },
+        {
+            "lead_id": 49,
+            "variants": [
+                {
+                    "type": "professional_email",
+                    "message": "I'm reaching out to introduce our workflow automation and analytics platform. Ximena, at Gaming Studio, you might find that automating repetitive production tasks and gaining insights into workflow performance could help streamline your creative pipeline. If you have a few minutes next week, I'd be happy to discuss how this could fit into your current processes."
+                },
+                {
+                    "type": "friendly_email",
+                    "message": "Hi Ximena, hope all is well! I wanted to share something that could make life at Gaming Studio smoother. Our platform can automate routine tasks and give you clearer visibility into your production workflows. If you have a moment, let me know if you'd like to chat about it."
+                },
+                {
+                    "type": "linkedin",
+                    "message": "Hi Ximena, I'm reaching out to introduce our workflow automation and analytics platform. It could help Gaming Studio streamline repetitive tasks and gain better visibility into production workflows. Would you be open to a quick call to discuss further?"
+                }
+            ]
+        },
+        {
+            "lead_id": 50,
+            "variants": [
+                {
+                    "type": "professional_email",
+                    "message": "I'm reaching out to introduce our workflow automation and analytics platform. At Healthcare Systems Ltd, you could streamline patient data processing and gain insights into operational metrics. If you find this relevant, I'd welcome a brief call to explore how it might fit your needs."
+                },
+                {
+                    "type": "friendly_email",
+                    "message": "Hey Frank, I hope you're doing well. I wanted to share a quick idea that could help Healthcare Systems Ltd manage workflow more smoothly and get better visibility into daily operations. Let me know if you'd like to chat about it!"
+                },
+                {
+                    "type": "linkedin",
+                    "message": "Hi Frank, I thought you might find our workflow automation platform useful for Healthcare Systems Ltd. It could help streamline processes and provide analytics. Would you be open to a short conversation?"
+                }
+            ]
+        },
+        {
+            "lead_id": 51,
+            "variants": [
+                {
+                    "type": "professional_email",
+                    "message": "I'm reaching out to introduce our workflow automation and analytics platform. Import Export Trading could use it to streamline customs documentation and monitor trade flows. If that sounds useful, I’d be happy to discuss further."
+                },
+                {
+                    "type": "friendly_email",
+                    "message": "Hi Natasha, hope all is well. I have a quick suggestion that might help Import Export Trading simplify trade paperwork and track shipments more efficiently. Let me know if you'd like to talk about it."
+                },
+                {
+                    "type": "linkedin",
+                    "message": "Hello Natasha, I think our workflow automation platform could support Import Export Trading in managing trade processes and analytics. Would you be interested in a brief chat?"
+                }
+            ]
+        },
+        {
+            "lead_id": 52,
+            "variants": [
+                {
+                    "type": "professional_email",
+                    "message": "I'm reaching out to introduce our workflow automation and analytics platform. Logistics Tracking could use it to coordinate fleet operations and gain visibility into delivery metrics. If that could be useful, I'd welcome a short discussion."
+                },
+                {
+                    "type": "friendly_email",
+                    "message": "Hi Raymond, hope you're doing well. I wanted to share a quick idea that might help Logistics Tracking streamline routing and monitor performance. Let me know if you'd like to explore this."
+                },
+                {
+                    "type": "linkedin",
+                    "message": "Hi Raymond, I think our platform could assist Logistics Tracking in automating logistics workflows and providing analytics. Would you be open to a brief conversation?"
+                }
+            ]
+        },
+        {
+            "lead_id": 53,
+            "variants": [
+                {
+                    "type": "professional_email",
+                    "message": "I'm reaching out to introduce our workflow automation and analytics platform. Public Relations Firm could use it to manage campaign workflows and track engagement metrics. If that seems relevant, I'd be glad to discuss further."
+                },
+                {
+                    "type": "friendly_email",
+                    "message": "Hi Gemma, hope you're having a great day. I have a quick suggestion that might help Public Relations Firm streamline campaign management and see clearer performance data. Let me know if you'd like to chat."
+                },
+                {
+                    "type": "linkedin",
+                    "message": "Hello Gemma, I think our workflow automation platform could support Public Relations Firm in organizing campaigns and analyzing results. Would you be interested in a short discussion?"
+                }
+            ]
+        },
+        {
+            "lead_id": 54,
+            "variants": [
+                {
+                    "type": "professional_email",
+                    "message": "I'm reaching out to introduce our workflow automation and analytics platform. Real Estate Platform could use it to automate property listings workflows and monitor market activity. If that could be useful, I'd welcome a brief call."
+                },
+                {
+                    "type": "friendly_email",
+                    "message": "Hi Victor, hope all is well. I wanted to share a quick idea that might help Real Estate Platform streamline listing processes and gain insight into market trends. Let me know if you'd like to discuss."
+                },
+                {
+                    "type": "linkedin",
+                    "message": "Hi Victor, I think our platform could assist Real Estate Platform in automating real estate workflows and providing analytics. Would you be open to a short conversation?"
+                }
+            ]
+        },
+        {
+            "lead_id": 55,
+            "variants": [
+                {
+                    "type": "professional_email",
+                    "message": "I'm reaching out to introduce our workflow automation and analytics platform. For a SaaS company like StartupXYZ, our solution could help streamline internal processes and provide actionable insights. Would you be open to a brief call next week to explore this possibility?"
+                },
+                {
+                    "type": "friendly_email",
+                    "message": "Hi David, hope you're doing well. I'm reaching out to share a tool that might help StartupXYZ simplify workflow and get better analytics. If you have a few minutes, I'd love to chat about it."
+                },
+                {
+                    "type": "linkedin",
+                    "message": "Hi David, I’d like to share how our workflow automation platform could help StartupXYZ streamline processes and gain insights. Let’s connect and discuss."
+                }
+            ]
+        },
+        {
+            "lead_id": 56,
+            "variants": [
+                {
+                    "type": "professional_email",
+                    "message": "I'm reaching out to introduce our workflow automation and analytics platform. For a logistics company like Transportation Logistics, our solution could help optimize operations and provide clearer data visibility. Would you be open to a brief call next week to explore this possibility?"
+                },
+                {
+                    "type": "friendly_email",
+                    "message": "Hi Victoria, hope all is good. I wanted to share a platform that might help Transportation Logistics improve workflow and analytics. If you have a moment, let’s chat."
+                },
+                {
+                    "type": "linkedin",
+                    "message": "Hi Victoria, I’d like to share how our platform could help Transportation Logistics streamline processes and gain insights. Let’s connect."
+                }
+            ]
+        },
+        {
+            "lead_id": 57,
+            "variants": [
+                {
+                    "type": "professional_email",
+                    "message": "I'm reaching out to introduce our workflow automation and analytics platform. For a company in the automotive sector like Vehicle Tracking, the platform could help streamline data collection from fleet vehicles, providing clearer insights into operational patterns. Would you be open to a brief call next week to explore how this might fit your current processes?"
+                },
+                {
+                    "type": "friendly_email",
+                    "message": "Hey Tobias, I hope you're doing well! I'm reaching out to introduce our workflow automation and analytics platform. For a company like Vehicle Tracking in the automotive industry, this tool might help you simplify the flow of information from your fleet, giving you more time to focus on other priorities. If you're curious, I'd love to chat about how it could fit into your setup."
+                },
+                {
+                    "type": "linkedin",
+                    "message": "Hi Tobias, I’m reaching out to introduce our workflow automation and analytics platform. It could help streamline data flows for automotive companies like Vehicle Tracking. Would you be open to a quick chat?"
+                }
+            ]
+        },
+        {
+            "lead_id": 58,
+            "variants": [
+                {
+                    "type": "professional_email",
+                    "message": "I'm reaching out to introduce our workflow automation and analytics platform. For a company in the events sector such as Wedding Planning Tech, the platform could help organize and track the many moving parts of event planning, offering clearer visibility into task progress. Would you be available for a short call next week to discuss how this might support your operations?"
+                },
+                {
+                    "type": "friendly_email",
+                    "message": "Hi Daisy, hope all is well! I'm reaching out to introduce our workflow automation and analytics platform. For a business like Wedding Planning Tech in the events industry, this could help you keep all the details organized and track progress more easily. If you're interested, I'd love to share more about how it could fit into your workflow."
+                },
+                {
+                    "type": "linkedin",
+                    "message": "Hi Daisy, I’m reaching out to introduce our workflow automation and analytics platform. It could help streamline event planning processes for companies like Wedding Planning Tech. Would you be open to a brief chat?"
+                }
+            ]
+        },
+        {
+            "lead_id": 59,
+            "variants": [
+                {
+                    "type": "professional_email",
+                    "message": "I'm reaching out to introduce our workflow automation and analytics platform. Maya, at Agricultural Tech, our solution could help streamline your farm management processes by automating repetitive tasks and providing actionable insights into crop yields. If this sounds useful, I'd love to schedule a brief call to explore how it might fit your operations. Let me know a convenient time."
+                },
+                {
+                    "type": "friendly_email",
+                    "message": "Hey Maya, hope you're doing well! I'm reaching out to share our workflow automation and analytics platform. It could help Agricultural Tech simplify routine tasks and give you clearer visibility into your farming operations. Would you be open to a quick chat to see if it might be useful for you? Let me know what works."
+                },
+                {
+                    "type": "linkedin",
+                    "message": "Hi Maya, I’m reaching out to introduce our workflow automation and analytics platform. It could help Agricultural Tech streamline routine tasks and provide insights into crop management. Would love to connect and discuss if this might be useful for you."
+                }
+            ]
+        },
+        {
+            "lead_id": 60,
+            "variants": [
+                {
+                    "type": "professional_email",
+                    "message": "I'm reaching out to introduce our workflow automation and analytics platform. For a company in the AI/ML space like Artificial Intelligence Lab, our solution could help streamline data processing pipelines and provide deeper insights into model performance. If you have a few minutes, I'd love to discuss how this might support your team. Please let me know a convenient time."
+                },
+                {
+                    "type": "friendly_email",
+                    "message": "Hi Katherine, I hope you're doing well. I'm reaching out to introduce our workflow automation and analytics platform. For a lab focused on AI/ML, it could help automate repetitive data tasks and give you clearer visibility into your experiments. If you have a moment, I'd be happy to chat about how this might fit your workflow. Let me know what works for you!"
+                },
+                {
+                    "type": "linkedin",
+                    "message": "Hi Katherine, I’m reaching out to introduce our workflow automation and analytics platform. For AI/ML work, it could help automate data pipelines and provide analytics on model training. Would you be open to a brief call to discuss this?"
+                }
+            ]
+        },
+        {
+            "lead_id": 61,
+            "variants": [
+                {
+                    "type": "professional_email",
+                    "message": "I'm reaching out to introduce our workflow automation and analytics platform. For a company in the automotive sector like Autonomous Vehicles, our solution could help automate data collection from vehicle tests and offer analytics on performance metrics. If you have a few minutes, I'd love to discuss how this might support your team. Please let me know a convenient time."
+                },
+                {
+                    "type": "friendly_email",
+                    "message": "Hi Ulysses, I hope you're doing well. I'm reaching out to introduce our workflow automation and analytics platform. For automotive testing, it could help automate data capture and provide clearer insights into vehicle performance. If you have a moment, I'd be happy to chat about how this might fit your workflow. Let me know what works for you!"
+                },
+                {
+                    "type": "linkedin",
+                    "message": "Hi Ulysses, I’m reaching out to introduce our workflow automation and analytics platform. For automotive testing, it could help automate data capture and offer analytics on performance metrics. Would you be open to a brief call to discuss this?"
+                }
+            ]
+        },
+        {
+            "lead_id": 62,
+            "variants": [
+                {
+                    "type": "professional_email",
+                    "message": "I'm reaching out to introduce our workflow automation and analytics platform. For a company in the biotech field like Biotechnology Research, our solution could help automate lab data workflows and provide analytics on experiment results. If you have a few minutes, I'd love to discuss how this might support your team. Please let me know a convenient time."
+                },
+                {
+                    "type": "friendly_email",
+                    "message": "Hi Patricia, I hope you're doing well. I'm reaching out to introduce our workflow automation and analytics platform. For biotech research, it could help automate data handling and give you clearer visibility into experimental outcomes. If you have a moment, I'd be happy to chat about how this might fit your workflow. Let me know what works for you!"
+                },
+                {
+                    "type": "linkedin",
+                    "message": "Hi Patricia, I’m reaching out to introduce our workflow automation and analytics platform. For biotech research, it could help automate data handling and provide analytics on experiment outcomes. Would you be open to a brief call to discuss this?"
+                }
+            ]
+        },
+        {
+            "lead_id": 63,
+            "variants": [
+                {
+                    "type": "professional_email",
+                    "message": "I'm reaching out to introduce our workflow automation and analytics platform. For a company in the construction sector like Construction Management, our solution could help automate project scheduling and offer analytics on resource utilization. If you have a few minutes, I'd love to discuss how this might support your team. Please let me know a convenient time."
+                },
+                {
+                    "type": "friendly_email",
+                    "message": "Hi Walter, I hope you're doing well. I'm reaching out to introduce our workflow automation and analytics platform. For construction management, it could help automate scheduling and give you clearer insights into resource usage. If you have a moment, I'd be happy to chat about how this might fit your workflow. Let me know what works for you!"
+                },
+                {
+                    "type": "linkedin",
+                    "message": "Hi Walter, I’m reaching out to introduce our workflow automation and analytics platform. For construction management, it could help automate scheduling and provide analytics on resource usage. Would you be open to a brief call to discuss this?"
+                }
+            ]
+        },
+        {
+            "lead_id": 64,
+            "variants": [
+                {
+                    "type": "professional_email",
+                    "message": "I'm reaching out to introduce our workflow automation and analytics platform. For a company in the construction technology space like Construction Tech, our solution could help automate project workflows and offer analytics on construction data. If you have a few minutes, I'd love to discuss how this might support your team. Please let me know a convenient time."
+                },
+                {
+                    "type": "friendly_email",
+                    "message": "Hi Theo, I hope you're doing well. I'm reaching out to introduce our workflow automation and analytics platform. For construction tech, it could help automate project workflows and give you clearer visibility into construction data. If you have a moment, I'd be happy to chat about how this might fit your workflow. Let me know what works for you!"
+                },
+                {
+                    "type": "linkedin",
+                    "message": "Hi Theo, I’m reaching out to introduce our workflow automation and analytics platform. For construction tech, it could help automate project workflows and provide analytics on construction data. Would you be open to a brief call to discuss this?"
+                }
+            ]
+        },
+        {
+            "lead_id": 65,
+            "variants": [
+                {
+                    "type": "professional_email",
+                    "message": "I'm reaching out to introduce our workflow automation and analytics platform. Kennedy, at Environmental Monitoring, your work in Climate Tech could benefit from streamlined data pipelines and real‑time insights. If you have a few minutes, I'd love to discuss how our solution might help you manage monitoring workflows more efficiently. Let me know a convenient time for a brief call."
+                },
+                {
+                    "type": "friendly_email",
+                    "message": "Hey Kennedy! I hope you’re doing well. I’m reaching out to share something that might be useful for Environmental Monitoring in the Climate Tech space. Our platform can help you automate routine data tasks and get clearer analytics. Would you be open to a quick chat to see if it’s a fit? Let me know!"
+                },
+                {
+                    "type": "linkedin",
+                    "message": "Hi Kennedy, I’m reaching out to introduce our workflow automation and analytics platform. It could help Environmental Monitoring streamline data collection and analysis in Climate Tech. Would you be interested in a brief conversation? Thanks!"
+                }
+            ]
+        },
+        {
+            "lead_id": 66,
+            "variants": [
+                {
+                    "type": "professional_email",
+                    "message": "I'm reaching out to introduce our workflow automation and analytics platform. Uma, at Event Planning Co, your focus on Events could benefit from automated scheduling and performance tracking. If you have a few minutes, I'd like to discuss how our tool might help you manage event workflows more smoothly. Please let me know a convenient time for a short call."
+                },
+                {
+                    "type": "friendly_email",
+                    "message": "Hi Uma! Hope all is great. I wanted to share a tool that might help Event Planning Co in the Events sector. It can automate repetitive tasks and provide analytics on event metrics. Would you have time for a quick call to explore this? Let me know!"
+                },
+                {
+                    "type": "linkedin",
+                    "message": "Hello Uma, I’m reaching out to introduce our workflow automation and analytics platform. It could help Event Planning Co streamline event planning and track outcomes in the Events industry. Interested in a brief chat? Thanks!"
+                }
+            ]
+        },
+        {
+            "lead_id": 67,
+            "variants": [
+                {
+                    "type": "professional_email",
+                    "message": "I'm reaching out to introduce our workflow automation and analytics platform. Julian, at Hotel Management, your work in Hospitality could benefit from automated guest service workflows and data insights. If you have a few minutes, I'd like to discuss how our solution might help you manage operations more efficiently. Please let me know a suitable time for a short call."
+                },
+                {
+                    "type": "friendly_email",
+                    "message": "Hey Julian! I hope you’re doing well. I’m reaching out to share something that could be useful for Hotel Management in the Hospitality space. Our platform can automate routine tasks and give you clearer analytics. Would you be open to a quick chat? Let me know!"
+                },
+                {
+                    "type": "linkedin",
+                    "message": "Hi Julian, I’m reaching out to introduce our workflow automation and analytics platform. It could help Hotel Management streamline operational workflows and gain better insights in Hospitality. Would you like to discuss this further? Thanks!"
+                }
+            ]
+        },
+        {
+            "lead_id": 68,
+            "variants": [
+                {
+                    "type": "professional_email",
+                    "message": "I'm reaching out to introduce our workflow automation and analytics platform. Evelyn, at Human Resources Tech, your focus on HR Tech could benefit from automated employee onboarding and analytics dashboards. If you have a few minutes, I'd like to discuss how our solution might help you manage HR processes more efficiently. Please let me know a convenient time for a brief call."
+                },
+                {
+                    "type": "friendly_email",
+                    "message": "Hi Evelyn! Hope all is good. I wanted to share a tool that might help Human Resources Tech in the HR Tech field. It can automate repetitive HR tasks and provide analytics on workforce data. Would you have time for a quick call? Let me know!"
+                },
+                {
+                    "type": "linkedin",
+                    "message": "Hello Evelyn, I’m reaching out to introduce our workflow automation and analytics platform. It could help Human Resources Tech streamline HR workflows and gain better analytics in HR Tech. Interested in a brief conversation? Thanks!"
+                }
+            ]
+        },
+        {
+            "lead_id": 69,
+            "variants": [
+                {
+                    "type": "professional_email",
+                    "message": "I'm reaching out to introduce our workflow automation and analytics platform. Ursula, at Insurance Tech, your work in InsurTech could benefit from automated claim processing and real‑time analytics. If you have a few minutes, I'd like to discuss how our solution might help you manage insurance workflows more efficiently. Please let me know a convenient time for a short call."
+                },
+                {
+                    "type": "friendly_email",
+                    "message": "Hi Ursula! I hope you’re doing well. I’m reaching out to share something that could be useful for Insurance Tech in the InsurTech space. Our platform can automate routine tasks and give you clearer analytics. Would you be open to a quick chat? Let me know!"
+                },
+                {
+                    "type": "linkedin",
+                    "message": "Hello Ursula, I’m reaching out to introduce our workflow automation and analytics platform. It could help Insurance Tech streamline insurance processes and gain better insights in InsurTech. Would you like to discuss this further? Thanks!"
+                }
+            ]
+        },
+        {
+            "lead_id": 70,
+            "variants": [
+                {
+                    "type": "professional_email",
+                    "message": "I'm reaching out to introduce our workflow automation and analytics platform. For a landscaping services company like Landscaping Services, our solution could help streamline scheduling, invoicing, and tracking job metrics, giving you clearer visibility into operations. If you’re interested, I’d be happy to discuss how this might fit your needs."
+                },
+                {
+                    "type": "friendly_email",
+                    "message": "Hey Zachary, hope you’re doing well! I’m reaching out to share our workflow automation and analytics platform. It could help a landscaping services business like yours streamline scheduling and invoicing while giving you better insight into job metrics. Let me know if you’d like to explore this together."
+                },
+                {
+                    "type": "linkedin",
+                    "message": "Hi Zachary, I wanted to share how our platform could help Landscaping Services streamline scheduling, invoicing, and job tracking. Let me know if you’d like to chat about this."
+                }
+            ]
+        },
+        {
+            "lead_id": 71,
+            "variants": [
+                {
+                    "type": "professional_email",
+                    "message": "I'm reaching out to introduce our workflow automation and analytics platform. For a legal services firm such as Legal Services Firm, our solution could help automate document workflows and track case metrics, providing clearer operational insight. If this sounds relevant, I’d be glad to discuss further."
+                },
+                {
+                    "type": "friendly_email",
+                    "message": "Hi Bella, hope all is good! I’m reaching out to let you know about our workflow automation and analytics platform. It could help a legal services firm like yours automate document handling and monitor case metrics. If you’re curious, let’s talk."
+                },
+                {
+                    "type": "linkedin",
+                    "message": "Hi Bella, I thought you might find our platform useful for automating document workflows and tracking case metrics at Legal Services Firm. Let me know if you’d like to explore this."
+                }
+            ]
+        },
+        {
+            "lead_id": 72,
+            "variants": [
+                {
+                    "type": "professional_email",
+                    "message": "I'm reaching out to introduce our workflow automation and analytics platform. For a media and entertainment company like Media & Entertainment, our solution could help automate content production pipelines and track engagement metrics, offering clearer operational visibility. If this could be of interest, I’d welcome a brief discussion."
+                },
+                {
+                    "type": "friendly_email",
+                    "message": "Hey Cassandra, hope you’re having a great day! I’m reaching out to share our workflow automation and analytics platform. It could help a media & entertainment business like yours streamline production workflows and monitor engagement metrics. Let me know if you’d like to explore this."
+                },
+                {
+                    "type": "linkedin",
+                    "message": "Hi Cassandra, I wanted to let you know our platform might help Media & Entertainment streamline production workflows and track engagement metrics. Let me know if you’d like to chat."
+                }
+            ]
+        },
+        {
+            "lead_id": 73,
+            "variants": [
+                {
+                    "type": "professional_email",
+                    "message": "I'm reaching out to introduce our workflow automation and analytics platform. For a cybersecurity firm such as Network Security, our solution could help automate incident response workflows and track security metrics, providing clearer operational insight. If this sounds relevant, I’d be happy to discuss further."
+                },
+                {
+                    "type": "friendly_email",
+                    "message": "Hi Priya, hope you’re doing well! I’m reaching out to share our workflow automation and analytics platform. It could help a cybersecurity company like Network Security automate incident response and monitor security metrics. Let me know if you’d like to explore this."
+                },
+                {
+                    "type": "linkedin",
+                    "message": "Hi Priya, I thought our platform could help Network Security automate incident response workflows and track security metrics. Let me know if you’d like to chat."
+                }
+            ]
+        },
+        {
+            "lead_id": 74,
+            "variants": [
+                {
+                    "type": "professional_email",
+                    "message": "I'm reaching out to introduce our workflow automation and analytics platform. For a nutrition tech company like Nutrition Tech, our solution could help automate supply chain workflows and track product metrics, giving you clearer operational visibility. If this could be of interest, I’d welcome a brief discussion."
+                },
+                {
+                    "type": "friendly_email",
+                    "message": "Hey Tara, hope all’s good! I’m reaching out to share our workflow automation and analytics platform. It could help a nutrition tech business like yours streamline supply chain processes and monitor product metrics. Let me know if you’d like to explore this."
+                },
+                {
+                    "type": "linkedin",
+                    "message": "Hi Tara, I wanted to let you know our platform might help Nutrition Tech automate supply chain workflows and track product metrics. Let me know if you’d like to chat."
+                }
+            ]
+        },
+        {
+            "lead_id": 75,
+            "variants": [
+                {
+                    "type": "professional_email",
+                    "message": "Dear Yasmine, I'm reaching out to introduce our workflow automation and analytics platform. At Pet Care Services, you might find that automating scheduling and client communication could help streamline operations and provide clearer visibility into service delivery. Could we schedule a brief call next week to explore how this might fit your needs?"
+                },
+                {
+                    "type": "friendly_email",
+                    "message": "Hi Yasmine, Hope you’re doing well! I'm reaching out to introduce our workflow automation and analytics platform. I think it could be useful for Pet Care Services by helping you manage appointments and client data more efficiently. Would you have time for a quick chat next week?"
+                },
+                {
+                    "type": "linkedin",
+                    "message": "Hi Yasmine, I'm reaching out to introduce our workflow automation and analytics platform. It may help Pet Care Services streamline scheduling and client communication. Would you be open to a brief call to explore this?"
+                }
+            ]
+        },
+        {
+            "lead_id": 76,
+            "variants": [
+                {
+                    "type": "professional_email",
+                    "message": "Dear Olivia, I'm reaching out to introduce our workflow automation and analytics platform. At Renewable Energy Corp, you might find that automating project coordination and reporting could help streamline processes and give you better insight into operational efficiency. Could we schedule a brief call next week to discuss how this might fit your needs?"
+                },
+                {
+                    "type": "friendly_email",
+                    "message": "Hi Olivia, Hope you’re having a great day! I'm reaching out to introduce our workflow automation and analytics platform. I think it could be useful for Renewable Energy Corp by helping you manage project workflows and data more efficiently. Would you have time for a quick chat next week?"
+                },
+                {
+                    "type": "linkedin",
+                    "message": "Hi Olivia, I'm reaching out to introduce our workflow automation and analytics platform. It may help Renewable Energy Corp streamline project coordination and reporting. Would you be open to a brief call to explore this?"
+                }
+            ]
+        },
+        {
+            "lead_id": 77,
+            "variants": [
+                {
+                    "type": "professional_email",
+                    "message": "Dear Aaron, I'm reaching out to introduce our workflow automation and analytics platform. At Supply Chain Co, you might find that automating inventory and logistics workflows could help streamline operations and provide clearer visibility into supply chain performance. Could we schedule a brief call next week to explore how this might fit your needs?"
+                },
+                {
+                    "type": "friendly_email",
+                    "message": "Hi Aaron, Hope you’re doing well! I'm reaching out to introduce our workflow automation and analytics platform. I think it could be useful for Supply Chain Co by helping you manage inventory and logistics more efficiently. Would you have time for a quick chat next week?"
+                },
+                {
+                    "type": "linkedin",
+                    "message": "Hi Aaron, I'm reaching out to introduce our workflow automation and analytics platform. It may help Supply Chain Co streamline inventory and logistics workflows. Would you be open to a brief call to explore this?"
+                }
+            ]
+        },
+        {
+            "lead_id": 78,
+            "variants": [
+                {
+                    "type": "professional_email",
+                    "message": "Dear Iris, I'm reaching out to introduce our workflow automation and analytics platform. At Telecommunications Equipment, you might find that automating service provisioning and maintenance workflows could help streamline operations and give you better insight into equipment uptime. Could we schedule a brief call next week to discuss how this might fit your needs?"
+                },
+                {
+                    "type": "friendly_email",
+                    "message": "Hi Iris, Hope you’re having a great day! I'm reaching out to introduce our workflow automation and analytics platform. I think it could be useful for Telecommunications Equipment by helping you manage service provisioning and maintenance more efficiently. Would you have time for a quick chat next week?"
+                },
+                {
+                    "type": "linkedin",
+                    "message": "Hi Iris, I'm reaching out to introduce our workflow automation and analytics platform. It may help Telecommunications Equipment streamline service provisioning and maintenance workflows. Would you be open to a brief call to explore this?"
+                }
+            ]
+        },
+        {
+            "lead_id": 79,
+            "variants": [
+                {
+                    "type": "professional_email",
+                    "message": "Dear Quinn, I'm reaching out to introduce our workflow automation and analytics platform. At Volunteer Management, you might find that automating volunteer scheduling and communication could help streamline operations and provide clearer visibility into volunteer engagement. Could we schedule a brief call next week to explore how this might fit your needs?"
+                },
+                {
+                    "type": "friendly_email",
+                    "message": "Hi Quinn, Hope you’re doing well! I'm reaching out to introduce our workflow automation and analytics platform. I think it could be useful for Volunteer Management by helping you manage volunteer scheduling and communication more efficiently. Would you have time for a quick chat next week?"
+                },
+                {
+                    "type": "linkedin",
+                    "message": "Hi Quinn, I'm reaching out to introduce our workflow automation and analytics platform. It may help Volunteer Management streamline volunteer scheduling and communication. Would you be open to a brief call to explore this?"
+                }
+            ]
+        }
+    ],
+    "failed_batches": []
+}

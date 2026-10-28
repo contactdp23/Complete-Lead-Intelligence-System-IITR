@@ -1,9 +1,12 @@
 
+
 # Python virtual environment
 .venv/
 
 # Private API credentials
 .env
+.env.*
+!.env.example
 
 # Python temporary files
 __pycache__/
@@ -12,5 +15,11 @@ __pycache__/
 # Pytest temporary files
 .pytest_cache/
 
+# Submission package (duplicate files)
+IITR_Lead_Intelligence_Submission.zip
+IITR_Lead_Intelligence_Submission/
+
 # Generated reports
-output/
+output/*
+!output/output_report_final.json
+

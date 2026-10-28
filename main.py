@@ -63,14 +63,20 @@ def score_leads(df, evaluation_date):
             evaluation_date=evaluation_date
         )
 
+        
         results.append({
             "name": lead.get("name"),
             "company": lead.get("company"),
+            "company_size": lead.get("company_size"),
+            "industry": lead.get("industry"),
+            "source": lead.get("source"),
+            "last_interaction_date": lead.get("last_interaction_date"),
             "score": qualification["score"],
             "decision": qualification["decision"],
             "reasoning": qualification["reasoning"],
             "review_flags": qualification["review_flags"]
         })
+
 
     return pd.DataFrame(results)
 
